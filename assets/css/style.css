@@ -1,0 +1,61 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#scaffold-image{
+  height: 600px;
+  width: 100%;
+  background: url("../images/Scaffold.jpg") no-repeat center center;
+
+  animation-name: image-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+#image-outer{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes image-zoom{
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+  }
+}
+
+/* #cover-text, #cover-text h2{
+  color: #ffffff;
+} */
+
+
+
+#cover-text{
+  font-size: 130%;
+  letter-spacing: 2px;
+
+  width:400px;
+  height:200px;
+
+  padding-top: 35px;
+  padding-left: 30px;
+
+  background-color: rgba(12, 12, 12, 0.555);
+
+  bottom: 30px;
+  right: 150px;
+
+  position: absolute;
+
+  color: #ffffff;
+}
+
+#cover-text h2{
+  letter-spacing: 4px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
