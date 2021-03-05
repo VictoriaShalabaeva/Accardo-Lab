@@ -1,6 +1,21 @@
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
+.navbar-style{
+    border-top: 4px solid rgb(53, 52, 52);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.navbar-brand a{
+    color: #313131;
+} 
 
 #scaffold-image{
   height: 600px;
@@ -28,16 +43,11 @@ body{
   }
 }
 
-/* #cover-text, #cover-text h2{
-  color: #ffffff;
-} */
-
-
-
 #cover-text{
   font-size: 130%;
   letter-spacing: 2px;
-
+  font-weight: 200;
+  
   width:400px;
   height:200px;
 
@@ -56,6 +66,21 @@ body{
 
 #cover-text h2{
   letter-spacing: 4px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 943px){
+  #cover-text{
+  left: 0px;
+  width:300px;
+  height:150px;
+  padding-top: 15px;
+  font-size: 100%;
+  letter-spacing: 1px;
+  }
+
+  #scaffold-image, #image-outer{
+      height: 50vh;
+  }
 }
