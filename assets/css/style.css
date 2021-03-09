@@ -1,6 +1,14 @@
 body{
     font-family: 'Roboto', sans-serif;
+    color: #313131;
 }
+
+/* a{
+    text-decoration: underline;
+    color: #313131
+} */
+
+/* ----------------------------------------------Header */
 
 .navbar-style{
     border-top: 4px solid rgb(53, 52, 52);
@@ -8,9 +16,15 @@ body{
     padding-bottom: 10px;
 }
 
+.navbar-nav{
+    text-transform: uppercase;
+}
+
 .navbar-brand{
-    font-weight: 400;
-    font-size: 30px;
+    font-size: 34px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .navbar-brand a{
@@ -84,3 +98,87 @@ body{
       height: 50vh;
   }
 }
+
+/* ---------------------------------------------Main Text */
+
+.main-text{
+    padding-left: 5px;
+}
+
+.main-text h2{
+    font-family: "Raleway";
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.main-text p{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 20px;
+}
+
+.news{
+    font-family: "Raleway";
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.card{
+    height: 580px;
+}
+
+#more {display: none;}
+
+.no-blue-text p a, .no-blue-text li a{
+    text-decoration: underline;
+    color: #313131
+}
+
+.no-blue-text a:hover{
+    color: #a837be
+}
+
+.btn-hover span:hover{
+    color: white;
+}
+
+/* ------------------------------------------------Footer */
+
+.departments{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-style{
+    padding-top: 40px;
+    padding-left: 30px;
+    border-top: #ceb546 3px solid;
+    font-size: 12.8px;
+}
+
+.footer-style h6{
+    font-weight: 300;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #494949;
+    color: #ffffff;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+}
+
+
