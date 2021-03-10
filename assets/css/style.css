@@ -3,11 +3,6 @@ body{
     color: #313131;
 }
 
-/* a{
-    text-decoration: underline;
-    color: #313131
-} */
-
 /* ----------------------------------------------Header */
 
 .navbar-style{
@@ -31,21 +26,38 @@ body{
     color: #313131;
 } 
 
-#scaffold-image{
-  height: 600px;
-  width: 100%;
-  background: url("../images/Scaffold.jpg") no-repeat center center;
-
-  animation-name: image-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-}
 
 #image-outer{
   height: 600px;
   width: 100%;
   overflow: hidden;
   position: relative;
+}
+
+#scaffold-image{
+  height: 600px;
+  width: 100%;
+  background: url("../images/scaffold.jpg") no-repeat center center;
+
+  animation-name: image-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+#image-outer-publications{
+  height: 516px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #dddbdb;
+  border-top: #dddbdb 2px solid;
+  border-bottom: #dddbdb 2px solid;
+}
+
+#publications-image{
+  height: 516px;
+  
+  background: url("../images/publications.jpg") no-repeat center center;
 }
 
 @keyframes image-zoom{
@@ -93,7 +105,7 @@ body{
   font-size: 100%;
   letter-spacing: 1px;
   }
-
+  
   #scaffold-image, #image-outer{
       height: 50vh;
   }
@@ -128,19 +140,53 @@ body{
     height: 580px;
 }
 
+@media screen and (max-width: 992px){
+  .card{
+    height: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+    .card{
+    height: 500px;
+  }
+}
+
+@media (max-width: 492px) {
+    .card{
+    height: 540px;
+  }
+}
+
 #more {display: none;}
 
 .no-blue-text p a, .no-blue-text li a{
-    text-decoration: underline;
-    color: #313131
+    color: #0c7dbb;
 }
 
 .no-blue-text a:hover{
-    color: #a837be
+    text-decoration: underline;
+    color: #e9711c;
 }
 
 .btn-hover span:hover{
     color: white;
+}
+
+/* ---------------------------------------------------Publications */
+
+.publications p{
+    background-color: #f1f0f0;
+    padding: 25px 40px;
+}
+
+.publications p span{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.lowercase{
+    text-transform: lowercase;
 }
 
 /* ------------------------------------------------Footer */
@@ -151,9 +197,9 @@ body{
 }
 
 .footer-style{
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 30px;
-    border-top: #ceb546 3px solid;
+    border-top: #f8f9fa 4px solid;
     font-size: 12.8px;
 }
 
@@ -161,9 +207,13 @@ body{
     font-weight: 300;
 }
 
+.departments h6{
+    font-weight: 500;
+}
+
 .footer-bottom{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 17px;
     padding-bottom: 20px;
     background-color: #494949;
     color: #ffffff;
@@ -178,7 +228,15 @@ body{
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: #7c7b7b;
 }
 
+.social-links{
+    margin-top: 20px;
+}
 
+@media screen and (min-width: 800px){
+  .footer-style{
+  padding-left: 50px;
+  }
+}
