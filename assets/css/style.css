@@ -44,31 +44,6 @@ body{
   animation-fill-mode: forwards;
 }
 
-#image-outer-publications{
-  height: 516px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  background-color: #dddbdb;
-  border-top: #dddbdb 2px solid;
-  border-bottom: #dddbdb 2px solid;
-}
-
-#publications-image{
-  height: 516px;
-  
-  background: url("../images/publications.jpg") no-repeat center center;
-}
-
-@keyframes image-zoom{
-  from{
-    transform: scale(1);
-  }
-  to{
-    transform: scale(1.1);
-  }
-}
-
 #cover-text{
   font-size: 130%;
   letter-spacing: 2px;
@@ -96,6 +71,35 @@ body{
   margin-bottom: 15px;
 }
 
+#image-outer-publications{
+  height: 520px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
+}
+
+#publications-image{
+  height: 516px;
+  
+  background: url("../images/publications2.jpg") no-repeat center center;
+}
+
+#image-outer-people{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#angelo-image{
+  height: 600px;
+  width: 100%;
+  background: url("../images/people/angelo.JPG") no-repeat center center;
+}
+
 @media screen and (max-width: 943px){
   #cover-text{
   left: 0px;
@@ -106,8 +110,20 @@ body{
   letter-spacing: 1px;
   }
   
-  #scaffold-image, #image-outer{
+  #scaffold-image, 
+  #image-outer, 
+  #image-outer-publications, 
+  #angelo-image,
+  #image-outer-people{
       height: 50vh;
+      background-size: cover;
+  }
+
+  #publications-image{
+      background: url("../images/publications3.png") no-repeat center center;
+      background-position-x: -60px;
+      height: 50vh;
+      background-size: cover;
   }
 }
 
@@ -121,6 +137,13 @@ body{
     font-family: "Raleway";
     font-weight: 600;
     margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.main-text h4{
+    font-family: "Raleway";
+    font-weight: 600;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -187,6 +210,30 @@ body{
 
 .lowercase{
     text-transform: lowercase;
+}
+
+.publications-container{
+    margin-bottom: 70px;
+}
+
+/* ---------------------------------------------------People */
+
+.photo{
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.people p{
+    margin-bottom: 10px;
+}
+
+.people h5{
+    margin-bottom: 20px;
+}
+
+.margin-bottom{
+    margin-bottom: 40px;
 }
 
 /* ------------------------------------------------Footer */
