@@ -100,6 +100,50 @@ body{
   background: url("../images/people/angelo.JPG") no-repeat center center;
 }
 
+#image-outer-come-to-join-us{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#come-to-join-us-image{
+  height: 600px;
+  width: 100%;
+  background: url("../images/come-to-join-us.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#image-outer-tudelft{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+#tudelft-image{
+  height: 600px;
+  width: 100%;
+  background: url("../images/tu_delft.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#image-outer-research{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+#research-image{
+  height: 600px;
+  width: 100%;
+  background: url("../images/research2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 @media screen and (max-width: 943px){
   #cover-text{
   left: 0px;
@@ -114,11 +158,22 @@ body{
   #image-outer, 
   #image-outer-publications, 
   #angelo-image,
-  #image-outer-people{
+  #image-outer-people,
+  #image-outer-come-to-join-us,
+  #come-to-join-us-image,
+  #image-outer-tudelft,
+  #tudelft-image
+  {
       height: 50vh;
       background-size: cover;
   }
 
+  #image-outer-research,
+  #research-image{
+      height: 30vh;
+      background-size: cover;
+  }
+  
   #publications-image{
       background: url("../images/publications3.png") no-repeat center center;
       background-position-x: -60px;
@@ -196,6 +251,11 @@ body{
     color: white;
 }
 
+#cell_microenvironment{
+    width: 400px;
+    
+}
+
 /* ---------------------------------------------------Publications */
 
 .publications p{
@@ -235,6 +295,63 @@ body{
 .margin-bottom{
     margin-bottom: 40px;
 }
+
+/* ------------------------------------------------Come to join us */
+
+.grey-box{
+    background-color: #f1f0f0;
+    padding: 25px 40px 8px 40px;
+}
+
+.master-projects li{
+    margin-bottom: 10px;
+}
+
+/* ------------------------------------------------Contact */
+
+.contact p{
+    margin-bottom: 5px;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:900px;
+}
+
+#gmap_canvas{
+    width: 900px; 
+    height:500px; 
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+}
+
+@media screen and (max-width: 1060px){
+  .mapouter, #gmap_canvas {
+    height:30vh;
+    width:100%;
+   }
+}
+
+/* @media screen and (max-width: 768px){
+  .mapouter, #gmap_canvas {
+    height:30vh;
+    width:100%;
+   }
+} */
+
+/* @media screen and (max-width: 576px){
+  .mapouter, #gmap_canvas {
+    height:35vh;
+    width:100%;
+   }
+} */
+
+
+
 
 /* ------------------------------------------------Footer */
 
