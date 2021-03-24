@@ -18,42 +18,54 @@
 <body>
 
    <header>
-        <div class="container-fluid navbar-style">
-            <nav class="navbar navbar-light navbar-expand-lg">
-                <a href="/" class="navbar-brand">Accardo Lab</a>
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="research.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="research.html">Research projects</a>
-                                <a class="dropdown-item" href="research.html">Equipments</a>
-                                <a class="dropdown-item" href="research.html">Teaching</a>
-                            </div>
-                        </li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="publications.html">Publications</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="people.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">People</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="people.html">Our team</a>
-                                <a class="dropdown-item" href="people.html#alumni">Alumni</a>
-                                <a class="dropdown-item" href="people.html#collaborations">Collaborations</a>
-                            </div>
-                        </li>
-                        <li class="active nav-item mr-2"><a class="nav-link" href="come-to-join-us.html">Come join us</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>
+        <div class="container-fluid border-top">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 navbar-style">
+                    <nav class="navbar navbar-light navbar-expand-lg">
+                        <a href="index.html" class="navbar-brand">Accardo Lab</a>
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="research.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="research.html">Research overview</a>
+                                        <a class="dropdown-item" href="research.html#equipments">Equipments</a>
+                                        <a class="dropdown-item" href="research.html#teaching">Teaching</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item mr-2"><a class="nav-link" href="publications.html">Publications</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="people.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">People</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="people.html">Our team</a>
+                                        <a class="dropdown-item" href="people.html#alumni">Alumni</a>
+                                        <a class="dropdown-item" href="people.html#collaborations">Collaborations</a>
+                                    </div>
+                                </li>
+                                <li class="active nav-item mr-2"><a class="nav-link" href="come-to-join-us.html">Come join us</a></li>
+                                <li class="nav-item mr-2"><a class="nav-link" href="contact.html" style="padding-right: 0px;">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </nav>
+                <div class="col-md-1"></div>
+            </div>
         </div>
 
-        <section id="image-outer-come-to-join-us">
-            <div id="come-to-join-us-image"></div>
-        </section>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div id="image-outer-come-to-join-us">
+                    <div id="come-to-join-us-image"></div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
 
    </header>
 
@@ -101,9 +113,9 @@
 
 
     <footer>
-    <div class="container-fluid footer-style no-blue-text">
+        <div class="container-fluid footer-style no-blue-text">
             <div class="row ">
-                <div class="col-sm-4 col-md-3">
+                <div class="col-md-3 footer-part">
                     <h6>Contact information</h6>
                     <p>
                         Prof. dr. A. Accardo
@@ -113,7 +125,7 @@
                         Tel: +31 15 152781610
                     </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4 footer-part">
                     <h6>Office/Visiting address</h6>
                     <p>
                         3mE, Mechanical, Maritime and Materials Engineering
@@ -125,7 +137,7 @@
                         The Netherlands
                     </p>
                 </div>
-                <div class="col-sm-4 col-md-5">
+                <div class="col-md-5">
                     <ul class="departments">
                         <li><a target="_blank" href="https://www.tudelft.nl/en/3me/about/departments/precision-and-microsystems-engineering-pme"><h6>Precision and Microsystems Engineering (PME)</h6></a></li>
                         <li><a target="_blank" href="https://www.tudelft.nl/en/3me"><h6>Faculty of Mechanical, Maritime and Materials Engineering (3mE)</h6></a></li>

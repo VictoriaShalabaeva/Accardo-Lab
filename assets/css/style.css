@@ -5,10 +5,18 @@ body{
 
 /* ----------------------------------------------Header */
 
+.border-top{
+border-top: 4px solid rgb(53, 52, 52)!important;
+}
+
 .navbar-style{
-    border-top: 4px solid rgb(53, 52, 52);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 992px){
+    .navbar-style{
+    padding: 10px 10px;
+}
 }
 
 .navbar-nav{
@@ -25,6 +33,18 @@ body{
 .navbar-brand a{
     color: #313131;
 } 
+
+.navbar-expand-lg{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1020px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .2rem;
+    padding-left: .3rem;
+}
+}
 
 
 #image-outer{
@@ -58,7 +78,7 @@ body{
   background-color: rgba(12, 12, 12, 0.555);
 
   bottom: 30px;
-  right: 150px;
+  right: 50px;
 
   position: absolute;
 
@@ -71,20 +91,36 @@ body{
   margin-bottom: 15px;
 }
 
+#image-outer-research{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+#research-image{
+  height: 600px;
+  width: 100%;
+  background: url("../images/research2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 #image-outer-publications{
   height: 520px;
   width: 100%;
   overflow: hidden;
   position: relative;
-  background-color: black;
-  border-top: black 2px solid;
-  border-bottom: black 2px solid;
+  background-color: #f1f0f0;
+  border-top: #f1f0f0 2px solid;
+  border-bottom: #f1f0f0 2px solid;
 }
 
 #publications-image{
   height: 516px;
-  
-  background: url("../images/publications2.jpg") no-repeat center center;
+  width: 100%;
+  background: url("../images/publications.jpg") no-repeat center center;
+  background-size: contain;
 }
 
 #image-outer-people{
@@ -98,6 +134,7 @@ body{
   height: 600px;
   width: 100%;
   background: url("../images/people/angelo.JPG") no-repeat center center;
+  background-size: cover;
 }
 
 #image-outer-come-to-join-us{
@@ -129,22 +166,58 @@ body{
   background-size: cover;
 }
 
-#image-outer-research{
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-
+@media screen and (max-width: 992px){
+    #image-outer-research,
+  #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #angelo-image,
+    #image-outer-people,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 45vh;
+    }
 }
 
-#research-image{
-  height: 600px;
-  width: 100%;
-  background: url("../images/research2.jpg") no-repeat center center;
-  background-size: cover;
+@media screen and (max-width: 768px){
+    #image-outer-research,
+  #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #angelo-image,
+    #image-outer-people,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 40vh;
+    }
 }
 
-@media screen and (max-width: 943px){
+@media screen and (max-width: 576px){
+    #image-outer-research,
+  #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width: 460px){
+    #image-outer-publications,
+    #publications-image
+    {
+        height: 28vh;
+    }
+}
+
+@media screen and (max-width: 576px){
   #cover-text{
   left: 0px;
   width:300px;
@@ -154,32 +227,28 @@ body{
   letter-spacing: 1px;
   }
   
-  #scaffold-image, 
+  /* #scaffold-image, 
   #image-outer, 
   #image-outer-publications, 
-  #angelo-image,
-  #image-outer-people,
-  #image-outer-come-to-join-us,
-  #come-to-join-us-image,
-  #image-outer-tudelft,
-  #tudelft-image
+  
+  
   {
       height: 50vh;
       background-size: cover;
-  }
+  } */
 
-  #image-outer-research,
+  /* #image-outer-research,
   #research-image{
       height: 30vh;
-      background-size: cover;
+      background-size: cover; */
   }
   
-  #publications-image{
+  /* #publications-image{
       background: url("../images/publications3.png") no-repeat center center;
       background-position-x: -60px;
       height: 50vh;
       background-size: cover;
-  }
+  } */
 }
 
 /* ---------------------------------------------Main Text */
@@ -198,11 +267,12 @@ body{
 .main-text h4{
     font-family: "Raleway";
     font-weight: 600;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.main-text p{
+.main-text p,
+.main-text h5{
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 20px;
@@ -216,6 +286,49 @@ body{
 
 .card{
     height: 580px;
+}
+
+.container-card{
+    padding-bottom: 40px;
+}
+
+.card-img{
+    height: 300px;
+    width: 100%; 
+    object-fit: cover; 
+    display: block;"
+}
+
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon{
+    filter: invert(1) grayscale(100);
+}
+
+.carousel-indicators [data-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.carousel-dark .carousel-indicators [data-target] {
+    background-color: #000;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
 }
 
 @media screen and (max-width: 992px){
@@ -255,6 +368,28 @@ body{
     width: 400px;
     
 }
+
+/* ---------------------------------------------------Research */
+
+.research li{
+    margin-bottom: 12px;
+}
+
+.equipment{
+    width: 100%; 
+    height:300px; 
+    object-fit: cover; 
+    display: block;"
+}
+
+.container-equipment{
+    margin-bottom: 40px;
+}
+
+.top{
+    top: 330px;
+}
+
 
 /* ---------------------------------------------------Publications */
 
@@ -331,27 +466,17 @@ body{
 
 @media screen and (max-width: 1060px){
   .mapouter, #gmap_canvas {
-    height:30vh;
+    height:40vh;
     width:100%;
    }
 }
 
-/* @media screen and (max-width: 768px){
-  .mapouter, #gmap_canvas {
-    height:30vh;
-    width:100%;
-   }
-} */
-
-/* @media screen and (max-width: 576px){
+@media screen and (max-width: 576px){
   .mapouter, #gmap_canvas {
     height:35vh;
     width:100%;
    }
-} */
-
-
-
+}
 
 /* ------------------------------------------------Footer */
 
@@ -365,6 +490,7 @@ body{
     padding-left: 30px;
     border-top: #f8f9fa 4px solid;
     font-size: 12.8px;
+    margin-bottom: 20px;
 }
 
 .footer-style h6{
@@ -403,4 +529,16 @@ body{
   .footer-style{
   padding-left: 50px;
   }
+}
+
+@media screen and (min-width: 1350px){
+  .footer-style{
+  padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 768px){
+    .footer-part{
+        margin-bottom: 15px;
+    }
 }
