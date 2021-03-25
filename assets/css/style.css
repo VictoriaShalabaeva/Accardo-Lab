@@ -25,7 +25,7 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 
 .navbar-brand{
     font-size: 34px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -183,14 +183,14 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 }
 
 .main-text h2{
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 600;
     margin-top: 60px;
     margin-bottom: 30px;
 }
 
 .main-text h4{
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 600;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -208,7 +208,7 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 }
 
 .news{
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -388,6 +388,10 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 
 .margin-bottom{
     margin-bottom: 40px;
+}
+
+.phd-students{
+    margin-top: 60px;
 }
 
 .master-students{
@@ -580,6 +584,13 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     #publications-image
     {
         height: 28vh;
+    }
+
+}
+
+@media screen and (max-width: 340px){
+.navbar-brand{
+        font-size: 30px;
     }
 }
 
