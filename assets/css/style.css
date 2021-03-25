@@ -58,10 +58,20 @@ border-top: 4px solid rgb(53, 52, 52)!important;
   height: 600px;
   width: 100%;
   background: url("../images/scaffold.jpg") no-repeat center center;
+  background-size: cover;
 
   animation-name: image-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
+}
+
+@keyframes image-zoom{
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+  }
 }
 
 #cover-text{
@@ -102,7 +112,7 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 #research-image{
   height: 600px;
   width: 100%;
-  background: url("../images/research2.jpg") no-repeat center center;
+  background: url("../images/research3.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -166,91 +176,6 @@ border-top: 4px solid rgb(53, 52, 52)!important;
   background-size: cover;
 }
 
-@media screen and (max-width: 992px){
-    #image-outer-research,
-  #research-image,
-    #image-outer-publications,
-    #publications-image,
-    #angelo-image,
-    #image-outer-people,
-    #image-outer-come-to-join-us,
-    #come-to-join-us-image,
-    #image-outer-tudelft,
-    #tudelft-image{
-        height: 45vh;
-    }
-}
-
-@media screen and (max-width: 768px){
-    #image-outer-research,
-  #research-image,
-    #image-outer-publications,
-    #publications-image,
-    #angelo-image,
-    #image-outer-people,
-    #image-outer-come-to-join-us,
-    #come-to-join-us-image,
-    #image-outer-tudelft,
-    #tudelft-image{
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width: 576px){
-    #image-outer-research,
-  #research-image,
-    #image-outer-publications,
-    #publications-image,
-    #image-outer-come-to-join-us,
-    #come-to-join-us-image,
-    #image-outer-tudelft,
-    #tudelft-image{
-        height: 35vh;
-    }
-}
-
-@media screen and (max-width: 460px){
-    #image-outer-publications,
-    #publications-image
-    {
-        height: 28vh;
-    }
-}
-
-@media screen and (max-width: 576px){
-  #cover-text{
-  left: 0px;
-  width:300px;
-  height:150px;
-  padding-top: 15px;
-  font-size: 100%;
-  letter-spacing: 1px;
-  }
-  
-  /* #scaffold-image, 
-  #image-outer, 
-  #image-outer-publications, 
-  
-  
-  {
-      height: 50vh;
-      background-size: cover;
-  } */
-
-  /* #image-outer-research,
-  #research-image{
-      height: 30vh;
-      background-size: cover; */
-  }
-  
-  /* #publications-image{
-      background: url("../images/publications3.png") no-repeat center center;
-      background-position-x: -60px;
-      height: 50vh;
-      background-size: cover;
-  } */
-}
-
 /* ---------------------------------------------Main Text */
 
 .main-text{
@@ -278,6 +203,10 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     margin-bottom: 20px;
 }
 
+.height{
+    height: 350px;
+}
+
 .news{
     font-family: "Raleway";
     font-weight: 600;
@@ -285,7 +214,7 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 }
 
 .card{
-    height: 580px;
+    height: 600px;
 }
 
 .container-card{
@@ -331,21 +260,29 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     opacity: 1;
 }
 
-@media screen and (max-width: 992px){
+/* @media screen and (max-width: 992px){
   .card{
-    height: 700px;
+    height: 600px;
   }
+} */
+
+/* @media (max-width: 768px) {
+    .card{
+    height: 600px;
+  }
+} */
+
+.bottom {
+    bottom: -10px;
 }
 
-@media (max-width: 768px) {
-    .card{
-    height: 500px;
-  }
+.bottom2 {
+    bottom: -60px;
 }
 
 @media (max-width: 492px) {
     .card{
-    height: 540px;
+    height: 700px;
   }
 }
 
@@ -376,19 +313,41 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 }
 
 .equipment{
-    width: 100%; 
+    margin: auto;
+    width: 90%; 
     height:300px; 
     object-fit: cover; 
-    display: block;"
+    display: block;
+    
+}
+
+.equipment-text{
+    text-align: center; 
+    padding-top: 100px;
 }
 
 .container-equipment{
     margin-bottom: 40px;
 }
 
-.top{
-    top: 330px;
+
+/* @media screen and (max-width: 992px){
+    .equipment{
+        height: 45vh;
+    }
 }
+
+@media screen and (max-width: 768px){
+    {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 576px){
+   {
+        height: 35vh;
+    }
+} */
 
 
 /* ---------------------------------------------------Publications */
@@ -541,4 +500,102 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     .footer-part{
         margin-bottom: 15px;
     }
+}
+
+@media screen and (max-width: 992px){
+    #scaffold-image, 
+    #image-outer,
+    #image-outer-research,
+    #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #angelo-image,
+    #image-outer-people,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 45vh;
+    }
+    .height{
+        height: 300px;
+    }
+    .equipment-text{
+    padding-top: 30px;
+}
+}
+
+@media screen and (max-width: 768px){
+    #scaffold-image, 
+    #image-outer,
+    #image-outer-research,
+    #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #angelo-image,
+    #image-outer-people,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #scaffold-image, 
+    #image-outer,
+    #image-outer-research,
+    #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 35vh;
+    }
+    #cover-text{
+  left: 0px;
+  width:300px;
+  height:150px;
+  padding-top: 15px;
+  font-size: 100%;
+  letter-spacing: 1px;
+  }
+  .height{
+      height: 250px;
+  }
+  .equipment{
+    height:240px; 
+    
+}
+}
+
+@media screen and (max-width: 460px){
+    #image-outer-publications,
+    #publications-image
+    {
+        height: 28vh;
+    }
+}
+
+@media screen and (max-width: 645px){
+    .carousel-control-next,
+    .carousel-control-prev{
+      width: 5%;
+  }
+}
+
+@media screen and (min-width: 1400px){
+    .prev,
+    .next{
+      width: 30%;
+  }
+}
+@media screen and (min-width: 1640px){
+    .prev2,
+    .next2{
+      width: 20%;
+  }
 }
