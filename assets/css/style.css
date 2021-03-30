@@ -6,7 +6,7 @@ body{
 /* ----------------------------------------------Header */
 
 .border-top{
-border-top: 4px solid rgb(53, 52, 52)!important;
+    border-top: 4px solid rgb(53, 52, 52)!important;
 }
 
 .navbar-style{
@@ -15,8 +15,8 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 
 @media screen and (max-width: 992px){
     .navbar-style{
-    padding: 10px 10px;
-}
+        padding: 10px 10px;
+    }
 }
 
 .navbar-nav{
@@ -39,141 +39,209 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     padding-right: 0;
 }
 
-@media (min-width: 992px) and (max-width: 1020px){
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: .2rem;
-    padding-left: .3rem;
-}
+@media (min-width: 992px) and (max-width: 1020px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .2rem;
+        padding-left: .3rem;
+    }
 }
 
+@media screen and (max-width: 340px){
+    .navbar-brand{
+            font-size: 30px;
+    }
+}
 
 #image-outer{
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #scaffold-image{
-  height: 600px;
-  width: 100%;
-  background: url("../images/scaffold.jpg") no-repeat center center;
-  background-size: cover;
+    height: 600px;
+    width: 100%;
+    background: url("../images/scaffold.jpg") no-repeat center center;
+    background-size: cover;
 
-  animation-name: image-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
+    animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes image-zoom{
-  from{
-    transform: scale(1);
-  }
-  to{
-    transform: scale(1.1);
-  }
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 #cover-text{
-  font-size: 130%;
-  letter-spacing: 2px;
-  font-weight: 200;
-  
-  width:400px;
-  height:200px;
+    font-size: 130%;
+    letter-spacing: 2px;
+    font-weight: 200;
+    
+    width:400px;
+    height:200px;
 
-  padding-top: 35px;
-  padding-left: 30px;
+    padding-top: 35px;
+    padding-left: 30px;
 
-  background-color: rgba(12, 12, 12, 0.555);
+    background-color: rgba(12, 12, 12, 0.555);
 
-  bottom: 30px;
-  right: 50px;
+    bottom: 30px;
+    right: 50px;
 
-  position: absolute;
+    position: absolute;
 
-  color: #ffffff;
+    color: #ffffff;
 }
 
 #cover-text h2{
-  letter-spacing: 4px;
-  font-weight: 300;
-  margin-bottom: 15px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    margin-bottom: 15px;
 }
 
 #image-outer-research{
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #research-image{
-  height: 600px;
-  width: 100%;
-  background: url("../images/research3.jpg") no-repeat center center;
-  background-size: cover;
+    height: 600px;
+    width: 100%;
+    background: url("../images/research3.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 #image-outer-publications{
-  height: 520px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  background-color: #f1f0f0;
-  border-top: #f1f0f0 2px solid;
-  border-bottom: #f1f0f0 2px solid;
+    height: 520px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f1f0f0;
+    border-top:#f1f0f0 2px solid;
+    border-bottom:#f1f0f0 2px solid;
 }
 
 #publications-image{
-  height: 516px;
-  width: 100%;
-  background: url("../images/publications.jpg") no-repeat center center;
-  background-size: contain;
+    height: 516px;
+    width: 100%;
+    background: url("../images/publications.jpg") no-repeat center center;
+    background-size: contain;
 }
 
 #image-outer-people{
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #angelo-image{
-  height: 600px;
-  width: 100%;
-  background: url("../images/people/angelo.JPG") no-repeat center center;
-  background-size: cover;
+    height: 600px;
+    width: 100%;
+    background: url("../images/people/angelo.JPG") no-repeat center center;
+    background-size: cover;
 }
 
 #image-outer-come-to-join-us{
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #come-to-join-us-image{
-  height: 600px;
-  width: 100%;
-  background: url("../images/come-to-join-us.jpg") no-repeat center center;
-  background-size: cover;
+    height: 600px;
+    width: 100%;
+    background: url("../images/come-to-join-us.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 #image-outer-tudelft{
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #tudelft-image{
-  height: 600px;
-  width: 100%;
-  background: url("../images/tu_delft.jpg") no-repeat center center;
-  background-size: cover;
+    height: 600px;
+    width: 100%;
+    background: url("../images/tu_delft.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px){
+    #scaffold-image, 
+    #image-outer,
+    #image-outer-research,
+    #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #angelo-image,
+    #image-outer-people,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #scaffold-image, 
+    #image-outer,
+    #image-outer-research,
+    #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #angelo-image,
+    #image-outer-people,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 40vh;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    #scaffold-image, 
+    #image-outer,
+    #image-outer-research,
+    #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 35vh;
+    }
+    #cover-text{
+        left: 0px;
+        width:300px;
+        height:150px;
+        padding-top: 15px;
+        font-size: 100%;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    #image-outer-publications,
+    #publications-image{
+        height: 28vh;
+    }
 }
 
 /* ---------------------------------------------Main Text */
@@ -207,6 +275,18 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     height: 350px;
 }
 
+@media screen and (max-width: 992px){
+    .height{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .height{
+        height: 250px;
+    }
+}
+
 .news{
     font-family: "Raleway", sans-serif;
     font-weight: 600;
@@ -217,6 +297,24 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     height: 600px;
 }
 
+@media (max-width: 492px) {
+    .card{
+        height: 660px;
+    }
+}
+
+@media (max-width: 360px) {
+    .card{
+        height: 710px;
+    }
+}
+
+@media (max-width: 330px) {
+    .card{
+        height: 850px;
+    }
+}
+
 .container-card{
     padding-bottom: 40px;
 }
@@ -225,7 +323,19 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     height: 300px;
     width: 100%; 
     object-fit: cover; 
-    display: block;"
+    display: block;
+}
+
+@media screen and (max-width: 992px){
+    .card-img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .card-img {
+        height: 200px;
+    }
 }
 
 .carousel-dark .carousel-control-next-icon,
@@ -260,17 +370,25 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     opacity: 1;
 }
 
-/* @media screen and (max-width: 992px){
-  .card{
-    height: 600px;
+@media screen and (max-width: 645px){
+    .carousel-control-next,
+    .carousel-control-prev{
+      width: 5%;
   }
-} */
+}
 
-/* @media (max-width: 768px) {
-    .card{
-    height: 600px;
+@media screen and (min-width: 1400px){
+    .prev,
+    .next{
+      width: 30%;
   }
-} */
+}
+@media screen and (min-width: 1640px){
+    .prev2,
+    .next2{
+      width: 20%;
+  }
+}
 
 .bottom {
     bottom: -10px;
@@ -280,15 +398,12 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     bottom: -60px;
 }
 
-@media (max-width: 492px) {
-    .card{
-    height: 700px;
-  }
+#more {
+    display: none;
 }
 
-#more {display: none;}
-
-.no-blue-text p a, .no-blue-text li a{
+.no-blue-text p a, 
+.no-blue-text li a{
     color: #0c7dbb;
 }
 
@@ -301,11 +416,6 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     color: white;
 }
 
-#cell_microenvironment{
-    width: 400px;
-    
-}
-
 /* ---------------------------------------------------Research */
 
 .research li{
@@ -316,9 +426,14 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     margin: auto;
     width: 90%; 
     height:300px; 
-    object-fit: cover; 
+    object-fit: contain; 
     display: block;
-    
+}
+
+@media screen and (max-width: 576px){
+    .equipment{
+        height:200px; 
+    }
 }
 
 .equipment-text{
@@ -326,29 +441,15 @@ border-top: 4px solid rgb(53, 52, 52)!important;
     padding-top: 100px;
 }
 
+@media screen and (max-width: 992px){
+    .equipment-text{
+        padding-top: 15px;
+    }
+}
+
 .container-equipment{
     margin-bottom: 40px;
 }
-
-
-/* @media screen and (max-width: 992px){
-    .equipment{
-        height: 45vh;
-    }
-}
-
-@media screen and (max-width: 768px){
-    {
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width: 576px){
-   {
-        height: 35vh;
-    }
-} */
-
 
 /* ---------------------------------------------------Publications */
 
@@ -397,6 +498,7 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 .master-students{
     margin-top: 80px;
 }
+
 /* ------------------------------------------------Come to join us */
 
 .grey-box{
@@ -423,8 +525,11 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 
 #gmap_canvas{
     width: 900px; 
-    height:500px; 
+    height: 500px; 
+    border: 0;
+    overflow:hidden;
 }
+
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
@@ -432,16 +537,16 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 
 @media screen and (max-width: 1060px){
   .mapouter, #gmap_canvas {
-    height:40vh;
-    width:100%;
+        height:40vh;
+        width:100%;
    }
 }
 
 @media screen and (max-width: 576px){
-  .mapouter, #gmap_canvas {
-    height:35vh;
-    width:100%;
-   }
+    .mapouter, #gmap_canvas {
+        height:35vh;
+        width:100%;
+    }
 }
 
 /* ------------------------------------------------Footer */
@@ -492,124 +597,19 @@ border-top: 4px solid rgb(53, 52, 52)!important;
 }
 
 @media screen and (min-width: 800px){
-  .footer-style{
-  padding-left: 50px;
-  }
+    .footer-style{
+        padding-left: 50px;
+    }
 }
 
 @media screen and (min-width: 1350px){
-  .footer-style{
-  padding-left: 100px;
-  }
+    .footer-style{
+        padding-left: 100px;
+    }
 }
 
 @media screen and (max-width: 768px){
     .footer-part{
         margin-bottom: 15px;
     }
-}
-
-@media screen and (max-width: 992px){
-    #scaffold-image, 
-    #image-outer,
-    #image-outer-research,
-    #research-image,
-    #image-outer-publications,
-    #publications-image,
-    #angelo-image,
-    #image-outer-people,
-    #image-outer-come-to-join-us,
-    #come-to-join-us-image,
-    #image-outer-tudelft,
-    #tudelft-image{
-        height: 45vh;
-    }
-    .height{
-        height: 300px;
-    }
-    .equipment-text{
-    padding-top: 30px;
-}
-}
-
-@media screen and (max-width: 768px){
-    #scaffold-image, 
-    #image-outer,
-    #image-outer-research,
-    #research-image,
-    #image-outer-publications,
-    #publications-image,
-    #angelo-image,
-    #image-outer-people,
-    #image-outer-come-to-join-us,
-    #come-to-join-us-image,
-    #image-outer-tudelft,
-    #tudelft-image{
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width: 576px){
-    #scaffold-image, 
-    #image-outer,
-    #image-outer-research,
-    #research-image,
-    #image-outer-publications,
-    #publications-image,
-    #image-outer-come-to-join-us,
-    #come-to-join-us-image,
-    #image-outer-tudelft,
-    #tudelft-image{
-        height: 35vh;
-    }
-    #cover-text{
-  left: 0px;
-  width:300px;
-  height:150px;
-  padding-top: 15px;
-  font-size: 100%;
-  letter-spacing: 1px;
-  }
-  .height{
-      height: 250px;
-  }
-  .equipment{
-    height:240px; 
-    
-}
-}
-
-@media screen and (max-width: 460px){
-    #image-outer-publications,
-    #publications-image
-    {
-        height: 28vh;
-    }
-
-}
-
-@media screen and (max-width: 340px){
-.navbar-brand{
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 645px){
-    .carousel-control-next,
-    .carousel-control-prev{
-      width: 5%;
-  }
-}
-
-@media screen and (min-width: 1400px){
-    .prev,
-    .next{
-      width: 30%;
-  }
-}
-@media screen and (min-width: 1640px){
-    .prev2,
-    .next2{
-      width: 20%;
-  }
 }

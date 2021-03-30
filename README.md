@@ -2,7 +2,7 @@
 
 [View the live project here.](https://victoriashalabaeva.github.io/Accardo-Lab/)
 
-This is the main website for Accardo Lab. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for scientific community, students and collaborators.
+Accardo Lab is a website of the scientific research group supervised by Angelo Accardo, assistant professor at TU Delft. The website is designed to be responsibe and accessible on a range of devices, making it easy to navigate for scientific community, students and collaborators.
 
 ![Responsive Design](assets/images/machina.jpg)
 
