@@ -52,6 +52,8 @@ body{
     }
 }
 
+/* The styling of the header image was inspired by the Code Institute tutorial lesson on "Love running project" */
+
 #image-outer{
     height: 600px;
     width: 100%;
@@ -179,6 +181,23 @@ body{
     background-size: cover;
 }
 
+@media screen and (max-width: 1300px){
+    #scaffold-image, 
+    #image-outer,
+    #image-outer-research,
+    #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #angelo-image,
+    #image-outer-people,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 60vh;
+    }
+}
+
 @media screen and (max-width: 992px){
     #scaffold-image, 
     #image-outer,
@@ -244,7 +263,7 @@ body{
     }
 }
 
-/* ---------------------------------------------Main Text */
+/* ---------------------------------------------Home page */
 
 .main-text{
     padding-left: 5px;
@@ -269,22 +288,6 @@ body{
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 20px;
-}
-
-.height{
-    height: 350px;
-}
-
-@media screen and (max-width: 992px){
-    .height{
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 576px){
-    .height{
-        height: 250px;
-    }
 }
 
 .news{
@@ -420,6 +423,27 @@ body{
 
 .research li{
     margin-bottom: 12px;
+}
+
+.height-img{
+    height: 350px;
+}
+
+@media screen and (max-width: 992px){
+    .height-img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .height-img{
+        height: 250px;
+    }
+}
+
+.video{
+    width: 100%;
+    object-fit: contain;
 }
 
 .equipment{

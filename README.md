@@ -2,15 +2,53 @@
 
 [View the live project here.](https://victoriashalabaeva.github.io/Accardo-Lab/)
 
-Accardo Lab is a website of the scientific research group supervised by Angelo Accardo, assistant professor at TU Delft. The website is designed to be responsibe and accessible on a range of devices, making it easy to navigate for scientific community, students and collaborators.
+Accardo Lab is a website of the research group supervised by Angelo Accardo, assistant professor at the Delft University of Technology (TU Delft). 
 
-![Responsive Design](assets/images/machina.jpg)
+The website is particularly dedicated to the scientific community specialized in the field of Life Sciences, TU Delft students, group partners and collaborators. 
+
+The website is designed to be responsive and accessible on a range of devices, making it easy to navigate through.
+
+![Responsive Design](assets/images/responsive_design.jpg)
 
 ## User Experience (UX)
-***
 
 - ### User stories
 
+  - **As a research scientist from an external institution:**
+
+    - I want to easily understand the main areas of research of the group and learn more about it.
+    - I want to be able to easily navigate throughout the site to find content.
+    - I want to look for a publication list with DOI links provided.
+    - I want to find contact information for discussing possible collaborations.
+
+  - **As a Master student of TU Delft:**
+    
+    - I want to easily understand the main areas of research of the group and learn more about it.
+    - I want to be able to easily navigate throughout the site to find content.
+    - I want to look for the currently available Master students assignments.
+    - I want to find the contact information.
+
+  - **As a high-tech company:**
+
+    - I want to easily understand the main areas of research of the group and learn more about it.
+    - I want to be able to easily navigate throughout the site to find content.
+    - I want to find contact information for discussing possible collaborations.
+    - I want to locate social media links to see their followings on social media.
+
+  - **As a group member or colleague from the same faculty:**
+
+    - I want to be updated on the recent events of the group.
+    - I want to look for the publication list with DOI links provided.
+    - I want to find a group members list to check name or email address spelling.
+    - I want to be able to easily navigate throughout the site to find content.
+
+  - **As a user from a general audience:**
+
+    - I want to easily understand the main areas of research of the group and learn more about it.
+    - I want to be able to easily navigate throughout the site to find content.
+    - I want to find the contact information.
+    - I want to locate social media links to start following the research group. 
+    
 - ### Design
 
   - **Colour Scheme**
@@ -27,21 +65,19 @@ Accardo Lab is a website of the scientific research group supervised by Angelo A
 
 - ### Wireframes
 
-  - Home Page Wireframe - [View](#)
+  - Desktop wireframes of all pages - [View](assets/pdf/desktop_wireframes_accardo_lab.pdf)
 
-  - Mobile Wireframe - [View](#)
+  - Mobile wireframe of Home page - [View](assets/pdf/mobile_wireframe_home_page.pdf)
 
-  - Contact Us Page Wireframe - [View](#)
+  - Tablet wireframe of Home page - [View](assets/pdf/tablet_wireframe_home_page.pdf)
 
 ## Features
-***
 
 - Responsive on all device sizes
 
 - Interactive elements
 
 ## Technologies Used
-***
 
 ### Languages Used
 
@@ -61,7 +97,7 @@ Accardo Lab is a website of the scientific research group supervised by Angelo A
 
 3. [Font Awesome:](https://fontawesome.com/)
 
-   Font Awesome was used in the footer throughout the website to add icons for soscial links.
+   Font Awesome was used in the footer throughout the website to add icons for social links.
 
 
 4. [jQuery:](https://jquery.com/)
@@ -81,7 +117,6 @@ Accardo Lab is a website of the scientific research group supervised by Angelo A
    Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
-***
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -109,7 +144,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 ## Deployment
-***
 
 ### GitHub Pages
 
@@ -170,17 +204,18 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
-***
 
 ### Code
 
 - [Bootstrap4:](https://getbootstrap.com/docs/4.0/getting-started/introduction/) Bootstrap Library used throughout the project:
 
-  - to make site responsive using the Bootstrap Grid System,
+  - Grid System to make the site responsive,
 
-  - to integrate Bootstrap Cards,
+  - Navbar to make a responsive navigation header,
 
-  - to integrate Bootstrap Carousel.
+  - Cards to make flexible and extensible content containers,
+
+  - Carousel to make a slideshow for cycling through a series of content.
 
 - Some styling approaches were adapted from Code Institute tutorial lessons.
 
@@ -202,7 +237,7 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
-- My Mentor for continuous helpful feedback.
+- My mentor for continuous helpful feedback.
 
 - My husband (Angelo Accardo) for all provided content material.
 
