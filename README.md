@@ -26,9 +26,17 @@ The website is designed to be responsive and accessible on a range of devices, m
     - I want to easily understand the main areas of research of the group and learn more about it.
     - I want to be able to easily navigate throughout the site to find content.
     - I want to look for the currently available Master students assignments.
+    - I want to find the contact information to discuss the possibility to conduct a thesis research in the group.
+
+  - **As a candidate looking for potential job opportunities:**
+    
+    - I want to easily understand the main areas of research of the group and learn more about it.
+    - I want to be able to easily navigate throughout the site to find content.
+    - I want to look for the currently available open positions.
+    - I want to know the group members.
     - I want to find the contact information.
 
-  - **As a high-tech company:**
+  - **As a high-tech company and general audience:**
 
     - I want to easily understand the main areas of research of the group and learn more about it.
     - I want to be able to easily navigate throughout the site to find content.
@@ -41,14 +49,7 @@ The website is designed to be responsive and accessible on a range of devices, m
     - I want to look for the publication list with DOI links provided.
     - I want to find a group members list to check name or email address spelling.
     - I want to be able to easily navigate throughout the site to find content.
-
-  - **As a user from a general audience:**
-
-    - I want to easily understand the main areas of research of the group and learn more about it.
-    - I want to be able to easily navigate throughout the site to find content.
-    - I want to find the contact information.
-    - I want to locate social media links to start following the research group. 
-    
+      
 - ### Design
 
   - **Colour Scheme**
@@ -73,9 +74,17 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 ## Features
 
-- Responsive on all device sizes
+- The website is responsive on all device sizes.
 
-- Interactive elements
+- The website contains several pages including *Home*, *Research*, *Publications*, *People*, *Come join us* and *Contact*. This thematic division facilitates the website navigation.
+
+- The Home page contains a Bootstrap carousel that summarizes the latest news of the group in a concise manner and allows to keep the page length  short.
+
+- The website contains appealing header images that immediately  catch the user's attention and give a flavour of the main activity and results of the group. 
+
+- Each article in the publication list contains a DOI link which significantly saves user's time (no need to google further).
+
+- The Contact page contains a Google map that facilitates a trip planning for visitors.
 
 ## Technologies Used
 
@@ -125,11 +134,49 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
-- **First Time Visitor Goals**
+- *I want to easily understand the main areas of research of the group and learn more about it*
 
-- **Returning Visitor Goals**
+  - Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a header image with a cover text (the main points are made immediately with the header image).
+  - The user can scroll down and read the main goals of the group.
+  - The user can click on *Research*, appreciate the microfabricated scaffolds illustrated in the header image of the page and get a first impression on the scientific activity of the group. The text below than briefly describes the main concepts.
+  
+- *I want to be able to easily navigate throughout the site to find content.*
 
-- **Frequent User Goals**
+  - At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+  - As it is usually expected, at the bottom of each page there is a footer that contains contact information and social links.
+  
+- *I want to look for a publication list with DOI links provided.*
+
+  - User can find the full list of publications on *Publications" list.
+  - Each article has a DOI link that brings to the journal website with a publication. This significantly reduces the user's search time.
+
+- *I want to find contact information for discussing possible collaborations.*
+
+  - The full contact information can be found on the *Contact* page visually supported by Google map.
+  - Additionally as it is expected the contact information can be found at the bottom part of each page.
+
+- *I want to look for the currently available Master students assignments.*
+
+  - Upon entering the *Come join us* page, a Master student will see a header image illustrating a work in the laboratory. This should immediately create a right impression of an experimental research in the group rather than theoretical one.
+  - A Master student can find the list of available thesis projects after the header image.
+
+- *I want to look for the currently available job positions.*
+
+  - The potential candidate can check open vacancies as expected on "Come join us" page. 
+
+- *I want to locate social media links to see their followings on social media.*
+
+  - Social links can be found at the bottom of each page.
+  - Additionally the links to the hierarchically higher institutions can be found: the websites of the department, faculty and university.
+
+- *I want to see the list of group member.*
+
+  - User can find the list of group members on *People* page. 
+  - Each group member is presented with his photo, name and email address (if available).
+
+- *I want to be updated on the recent events of the group.*
+
+  - User can find the latest news of the group on *Home* page presented by an interective element (Bootstrap carousel) which briefly presents the recent group activity.
 
 ### Further Testing
 
@@ -142,6 +189,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
+
+  - Up to our knowledge there is no bugs present in the website. 
+
+  - All the malfunctions were tried to be fixed during the development process.
+
+  - Thank you for contacting the developer <shalabaevavt@gmail.com> if any bug was identified.
 
 ## Deployment
 
@@ -229,9 +282,9 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
-- The header image on the Come Join Us page was downloaded from [Here](https://www.pexels.com/photo/adult-biology-chemical-chemist-356040/).
+- The header image on the *Come Join Us* page was downloaded from [Here](https://www.pexels.com/photo/adult-biology-chemical-chemist-356040/).
 
-- The header image on the Contact page was downloaded from [TU Delft website](https://www.tudelft.nl/en/education/programmes/masters/cosem/msc-complex-systems-engineering-and-management/studying-at-tu-delft).
+- The header image on the *Contact* page was downloaded from [TU Delft website](https://www.tudelft.nl/en/education/programmes/masters/cosem/msc-complex-systems-engineering-and-management/studying-at-tu-delft).
 
 - All other images were provided by Angelo Accardo.
 
