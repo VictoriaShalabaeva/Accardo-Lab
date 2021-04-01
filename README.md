@@ -62,29 +62,35 @@ The website is designed to be responsive and accessible on a range of devices, m
 
   - **Imagery**
      
-     Imagery is important. The large, background header images are designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+     The large background hero images are designed to be striking and catch the user's attention. They are also informative and demonstrate the scientific results of the group.
 
 - ### Wireframes
 
-  - Desktop wireframes of all pages - [View](assets/pdf/desktop_wireframes_accardo_lab.pdf)
+  - *Home* page - [View](assets/pdf/home_page.pdf)
 
-  - Mobile wireframe of Home page - [View](assets/pdf/mobile_wireframe_home_page.pdf)
+  - *Research* page - [View](assets/pdf/research_page.pdf)
 
-  - Tablet wireframe of Home page - [View](assets/pdf/tablet_wireframe_home_page.pdf)
+  - *Publications* page - [View](assets/pdf/publications_page.pdf)
+
+  - *People* page - [View](assets/pdf/people_page.pdf)
+
+  - *Come join us* page - [View](assets/pdf/come_join_us_page.pdf)
+
+  - *Contact* page - [View](assets/pdf/contact_page.pdf)
 
 ## Features
 
 - The website is responsive on all device sizes.
 
-- The website contains several pages including *Home*, *Research*, *Publications*, *People*, *Come join us* and *Contact*. This thematic division facilitates the website navigation.
+- The website contains several pages including *Home*, *Research*, *Publications*, *People*, *Come join us* and *Contact* pages. This thematic division facilitates the website navigation.
 
-- The Home page contains a Bootstrap carousel that summarizes the latest news of the group in a concise manner and allows to keep the page length  short.
+- The *Home* page contains a Bootstrap carousel that summarizes the latest news of the group in a concise manner and allows to keep the page length  short.
 
-- The website contains appealing header images that immediately  catch the user's attention and give a flavour of the main activity and results of the group. 
+- The website contains appealing hero images that immediately  catch the user's attention and give a flavour of the main activity and results of the group. 
 
 - Each article in the publication list contains a DOI link which significantly saves user's time (no need to google further).
 
-- The Contact page contains a Google map that facilitates a trip planning for visitors.
+- The *Contact* page contains a Google map that facilitates a trip planning for visitors.
 
 ## Technologies Used
 
@@ -119,7 +125,7 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 6. [GitHub:](https://github.com/)
 
-   GitHub is used to store the projects code after being pushed from Git.
+   GitHub is used to store the projects code after being pushed from GitPod.
 
 7. [Balsamiq:](https://balsamiq.com/)
 
@@ -134,55 +140,62 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
-- *I want to easily understand the main areas of research of the group and learn more about it*
+- *I want to easily understand the main areas of research of the group and learn more about it.*
 
-  - Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a header image with a cover text (the main points are made immediately with the header image).
+  - Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a hero image with a cover text (the main points are made immediately with the hero image).
   - The user can scroll down and read the main goals of the group.
-  - The user can click on *Research*, appreciate the microfabricated scaffolds illustrated in the header image of the page and get a first impression on the scientific activity of the group. The text below than briefly describes the main concepts.
+  - The user can click on *Research*, appreciate the microfabricated scaffolds illustrated in the hero image of the page and get a first impression on the scientific activity of the group. The text below than briefly describes the main concepts.
   
 - *I want to be able to easily navigate throughout the site to find content.*
 
   - At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+  - The logo title (*Accardo Lab*) always leads back to the home page.
   - As it is usually expected, at the bottom of each page there is a footer that contains contact information and social links.
   
 - *I want to look for a publication list with DOI links provided.*
 
-  - User can find the full list of publications on *Publications" list.
-  - Each article has a DOI link that brings to the journal website with a publication. This significantly reduces the user's search time.
+  - User can find the full list of publications on the *Publications* page which is clearly labelled and easy to find in the navigation on every page.
+  - Each article has a DOI link that brings to the journal website with the publication. This significantly reduces the user's search time.
 
 - *I want to find contact information for discussing possible collaborations.*
 
-  - The full contact information can be found on the *Contact* page visually supported by Google map.
-  - Additionally as it is expected the contact information can be found at the bottom part of each page.
+  - The contact information can be found at the *Contact* page and at the bottom of each page. A clearly labelled *Contact* page is easy to find in the navigation bar on every page.
+  - The *Contact* page also contains a Google map for the visiting address.
+  - Additionally the email addresses of key group members (group leader and PhD students) are provided at the *People* page next to the photos.
 
 - *I want to look for the currently available Master students assignments.*
 
-  - Upon entering the *Come join us* page, a Master student will see a header image illustrating a work in the laboratory. This should immediately create a right impression of an experimental research in the group rather than theoretical one.
-  - A Master student can find the list of available thesis projects after the header image.
+  - A clearly labelled *Come join us* page is easy to find in the navigation bar on every page.
+  - Upon entering the *Come join us* page, a Master student will see a hero image illustrating a work in the laboratory. This should immediately create a right impression of an experimental research in the group rather than theoretical one.
+  - A Master student can find the list of available thesis projects after the hero image.
 
 - *I want to look for the currently available job positions.*
 
-  - The potential candidate can check open vacancies as expected on "Come join us" page. 
+  - The potential candidate can easily find open vacancies on the "Come join us" page. 
+  - A clearly labelled *Come join us* page is easy to find in the navigation bar on every page.
 
 - *I want to locate social media links to see their followings on social media.*
 
   - Social links can be found at the bottom of each page.
-  - Additionally the links to the hierarchically higher institutions can be found: the websites of the department, faculty and university.
+  - Additionally the links to the hierarchically higher institutions can be also found: the websites of the department, faculty and university.
 
 - *I want to see the list of group member.*
 
-  - User can find the list of group members on *People* page. 
+  - User can find the list of group members on the *People* page. 
+  - A clearly labelled *People* page is easy to find in the navigation bar on every page.
   - Each group member is presented with his photo, name and email address (if available).
 
 - *I want to be updated on the recent events of the group.*
 
-  - User can find the latest news of the group on *Home* page presented by an interective element (Bootstrap carousel) which briefly presents the recent group activity.
+  - User can find the latest news of the group on the *Home* page presented by an interective element (Bootstrap carousel) which briefly presents the recent group activity.
 
 ### Further Testing
 
+- The website was checked for perfomance with [Lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome devtools.
+
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneXR and Huawei Mate 20.
 
 - A large amount of testing was done to ensure that all pages were linking correctly.
 
@@ -190,11 +203,23 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
-  - Up to our knowledge there is no bugs present in the website. 
+  - Up to my knowledge there is no bug present in the website. 
 
   - All the malfunctions were tried to be fixed during the development process.
 
-  - Thank you for contacting the developer <shalabaevavt@gmail.com> if any bug was identified.
+  - Thank you for contacting the developer <shalabaevavt@gmail.com> if any bug is identified.
+
+  - During the development process, the particular difficulty was met with:
+  
+      - Formating the *News* section in the *Home* page. Apart the fact that I had to work with a large amount of content, the main issue was how to integrate cards inside a carousel and optimize their sizing on different devices. 
+    
+      - Fitting images with different dimentions and aspect rations in unique size container in cards. 
+
+      - Working with hero images, in particular the hero image on *Research* page and *Publications*. 
+
+        For the *Research* page I have created a collage with different images that lay one on top each other without following presize "borders". This was done in order to mask 
+
+
 
 ## Deployment
 
@@ -202,12 +227,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log in to GitHub and locate the GitHub Repository.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
 
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 
-   Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-    
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
     
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
@@ -220,7 +243,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
-1. Log in to GitHub and locate the GitHub Repository.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
     
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 
@@ -234,7 +257,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
     
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
     
-4. Open Git Bash
+4. Open Git Bash.
     
 5. Change the current working directory to the location where you want the cloned directory to be made.
     
@@ -278,13 +301,13 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
 
 - All content was provided by Angelo Accardo.
 
-- The present README file was written following the [template](https://github.com/Code-Institute-Solutions/SampleREADME) provided by Code Institute.
+- The present README file was written following the [template](https://github.com/Code-Institute-Solutions/SampleREADME) provided by Code Institute. Some parts (like Deployment section) were copied and pasted as they describe exactly the same procedure that was employed for the realization of this project.
 
 ### Media
 
-- The header image on the *Come Join Us* page was downloaded from [Here](https://www.pexels.com/photo/adult-biology-chemical-chemist-356040/).
+- The hero image on the *Come Join Us* page was downloaded from [Here](https://www.pexels.com/photo/adult-biology-chemical-chemist-356040/).
 
-- The header image on the *Contact* page was downloaded from [TU Delft website](https://www.tudelft.nl/en/education/programmes/masters/cosem/msc-complex-systems-engineering-and-management/studying-at-tu-delft).
+- The hero image on the *Contact* page was downloaded from [TU Delft website](https://www.tudelft.nl/en/education/programmes/masters/cosem/msc-complex-systems-engineering-and-management/studying-at-tu-delft).
 
 - All other images were provided by Angelo Accardo.
 
