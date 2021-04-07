@@ -191,7 +191,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
-- The website was checked for perfomance with [Lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome devtools.
+- The website was checked for performance with [Lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome devtools.
 
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
@@ -211,16 +211,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   - During the development process, the particular difficulty was met with:
   
-      - Formating the *News* section in the *Home* page. Apart the fact that I had to work with a large amount of content, the main issue was how to integrate cards inside a carousel and optimize their sizing on different devices. 
-    
-      - Fitting images with different dimentions and aspect rations in unique size container in cards. 
+      - Formatting the *News* section in the *Home* page:
+          - large amount of content, 
+          - cards integration inside a carousel,
+          - optimization their sizing on different devices,
+          - fitting images with different dimensions and aspect rations in unique size container in cards. 
 
       - Working with hero images, in particular the hero image on *Research* page and *Publications*. 
-
-        For the *Research* page I have created a collage with different images that lay one on top each other without following presize "borders". This was done in order to mask 
-
-
-
+        
 ## Deployment
 
 ### GitHub Pages
