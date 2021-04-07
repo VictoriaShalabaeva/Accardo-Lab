@@ -201,7 +201,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### Bugs
 
   - Up to my knowledge there is no bug present in the website. 
 
@@ -218,6 +218,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
           - fitting images with different dimensions and aspect rations in unique size container in cards. 
 
       - Working with hero images, in particular the hero image on *Research* page and *Publications*. 
+  
+  - *Fixed bug*
+
+  All pages of the website had an additional white space that was causing a horizontal scrolling (on the right side of the window).
+
+  
+
         
 ## Deployment
 

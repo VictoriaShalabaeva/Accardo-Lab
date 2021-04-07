@@ -263,6 +263,14 @@ body{
     }
 }
 
+.hero-image-margin-right{
+    margin-right: 0;
+}
+
+.hero-image-padding-right {
+    padding-right: 0;
+}
+
 /* ---------------------------------------------Home page */
 
 .main-text{
