@@ -219,12 +219,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
       - Working with hero images, in particular the hero image on *Research* page and *Publications*. 
   
-  - *Fixed bug*
+  - **Fixed bug**
 
-  All pages of the website had an additional white space that was causing a horizontal scrolling (on the right side of the window).
-
-  
-
+      - All pages of the website had an additional white space that was causing a horizontal page scrolling (please see Figure S1 in [Supp Info](supp-info.md)).
+      - It was discovered that the hero image container had an extra padding and margin space. 
+      - The issue was solved by adding an additional classes to standard Bootstrap .row and .col classes in order to style specifically the containers of the hero images.
         
 ## Deployment
 
