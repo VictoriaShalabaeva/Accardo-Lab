@@ -133,10 +133,10 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
-- [W3C Markup Validator](https://validator.w3.org/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validator](https://validator.w3.org/). Please see Figure S2 in [Supp Info](supp-info.md) for the result.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Please see Figure S3 in [Supp Info](supp-info.md) for the result.
 
 ### Testing User Stories from User Experience (UX) Section
 
