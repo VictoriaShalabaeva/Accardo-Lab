@@ -191,7 +191,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
-- The website was checked for performance with [Lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome devtools.
+- The website was checked for performance with [Lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome devtools (see results in Figure S4 in [Supp Info](supp-info.md)).
 
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
