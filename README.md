@@ -111,9 +111,15 @@ The website is designed to be responsive and accessible on a range of devices, m
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
-   
-   Bootstrap was used to assist with the responsiveness and styling of the website.
 
+   - Grid System to make the site responsive,
+
+   - Navbar to make a responsive navigation header,
+
+   - Cards to make flexible and extensible content containers,
+
+   - Carousel to make a slideshow for cycling through a series of content.
+   
 2. [Google Fonts:](https://fonts.google.com/)
 
    Google fonts Roboto and Raleway were used on all pages throughout the project.
@@ -122,14 +128,13 @@ The website is designed to be responsive and accessible on a range of devices, m
 
    Font Awesome was used in the footer throughout the website to add icons for social links.
 
-
 4. [jQuery:](https://jquery.com/)
 
    jQuery came with Bootstrap to support Carousel for all slide behaviors, controls, and indicators; to make the navbar responsive.
 
-5. [GitPod:](https://www.gitpod.io)
+5. [Git:](https://git-scm.com/)
 
-   GitPod was used for the whole project development.
+   Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 6. [GitHub:](https://github.com/)
 
@@ -293,22 +298,6 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-### Code
-
-- [Bootstrap4:](https://getbootstrap.com/docs/4.0/getting-started/introduction/) Bootstrap Library used throughout the project:
-
-  - Grid System to make the site responsive,
-
-  - Navbar to make a responsive navigation header,
-
-  - Cards to make flexible and extensible content containers,
-
-  - Carousel to make a slideshow for cycling through a series of content.
-
-- Some styling approaches were adapted from Code Institute tutorial lessons.
-
-- The Google map was integrated through [Google Map Generator](https://google-map-generator.com/).
-
 ### Content
 
 - All content was provided by Angelo Accardo.
@@ -324,6 +313,10 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
 - All other images were provided by Angelo Accardo.
 
 ### Acknowledgements
+
+- The styling of the hero image was inspired by the Code Institute tutorial lesson on "Love running project".
+
+- The Google map was integrated through [Google Map Generator](https://google-map-generator.com/).
 
 - My mentor for continuous helpful feedback.
 
