@@ -84,15 +84,19 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 - The website is responsive on all device sizes.
 
-- The website contains several pages including *Home*, *Research*, *Publications*, *People*, *Come join us* and *Contact* pages. This thematic division facilitates the website navigation.
+- The website contains six pages including *Home*, *Research*, *Publications*, *People*, *Come join us* and *Contact* pages. This thematic division facilitates the website navigation.
 
-- The *Home* page contains a Bootstrap carousel that summarizes the latest news of the group in a concise manner and allows to keep the page length  short.
+- The *Home* page contains an appealing hero image that immediately catches the user's attention and give a flavour of the main activities and results of the group. It contains a Bootstrap carousel that summarizes the latest news of the group in a concise manner and allows to keep the page length short.
 
-- The website contains appealing hero images that immediately  catch the user's attention and give a flavour of the main activity and results of the group. 
+- The *Research* page describes the main lines of research developed in the group. It contains a video file giving an example of one research project. It also contains a Bootstrap carousel that shows instruments available in the group laboratory.
 
-- Each article in the publication list contains a DOI link which significantly saves user's time (no need to google further).
+- The *Publications* page contains a full list of publications. Each article has a DOI link which significantly saves user's time (no need to google each article).
 
-- The *Contact* page contains a Google map that facilitates a trip planning for visitors.
+- The *People* page contains photos and contact information of all group members.
+
+- The *Come join us* page contains information on currently available Master  thesis projects and PhD/Postdoc openings.
+
+- The *Contact* page contains contact and address information. The page has also a Google map that facilitates a trip planning for visitors.
 
 ### Features Left to Implement
 
