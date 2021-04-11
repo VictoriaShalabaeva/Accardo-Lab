@@ -80,6 +80,8 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 ## Features
 
+### Existing Features
+
 - The website is responsive on all device sizes.
 
 - The website contains several pages including *Home*, *Research*, *Publications*, *People*, *Come join us* and *Contact* pages. This thematic division facilitates the website navigation.
@@ -91,6 +93,12 @@ The website is designed to be responsive and accessible on a range of devices, m
 - Each article in the publication list contains a DOI link which significantly saves user's time (no need to google further).
 
 - The *Contact* page contains a Google map that facilitates a trip planning for visitors.
+
+### Features Left to Implement
+
+- a *Scroll Back To Top Button*. This feature would be particularly useful in the *Publications* page as it is rather long.
+
+- a *Search Bar* through which a user can search content of their concern within the website.
 
 ## Technologies Used
 
