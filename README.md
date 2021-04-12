@@ -160,8 +160,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - *I want to easily understand the main areas of research of the group and learn more about it.*
 
   - Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a hero image with a cover text (the main points are made immediately with the hero image).
+
+    <img src="assets/images/testing_user_stories/user_stories_1.jpg" alt="A hero image with a cover text on Home page." width="600px" height="auto">
+
   - The user can scroll down and read the main goals of the group.
+
+    <img src="assets/images/testing_user_stories/user_stories_2.jpg" alt="The main goals of the group." width="600px" height="auto">
+
   - The user can click on *Research*, appreciate the microfabricated scaffolds illustrated in the hero image of the page and get a first impression on the scientific activity of the group. The text below than briefly describes the main concepts.
+
+    <img src="assets/images/testing_user_stories/user_stories_3.jpg" alt="The screenshot of Research page." width="600px" height="auto">
   
 - *I want to be able to easily navigate throughout the site to find content.*
 
