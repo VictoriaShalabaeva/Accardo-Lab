@@ -102,9 +102,11 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 ### Features Left to Implement
 
-- a *Scroll Back To Top Button*. This feature would be particularly useful in the *Publications* page as it is rather long.
+- a *Scroll Back To Top Button*. This feature would be particularly useful on the *Publications* page as it is rather long.
 
 - a *Search Bar* through which a user can search content of their concern within the website.
+
+- an automatically adjustable font-size in the *News* section or a Modal function. The cards containers have the same size but the text contant is different in lenght. An automatically adjustable font-size or a Modal function could allow to keep a shorter cards height.
 
 ## Technologies Used
 
@@ -187,7 +189,7 @@ The manual testing is described in [Supp Info](supp-info.md).
 
   - During the development process, the particular difficulty was met with:
   
-      - Formatting the *News* section in the *Home* page:
+      - Formatting the *News* section on the *Home* page:
           - large amount of content, 
           - cards integration inside a carousel,
           - optimization their sizing on different devices,
