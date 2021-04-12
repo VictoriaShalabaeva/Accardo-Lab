@@ -203,8 +203,7 @@ The manual testing is described in [Supp Info](supp-info.md).
 
       - It was noticed that for screen sizes less than 360 px there is an overlap between photos and text on the right (see Figure S5 in [Supp Info](supp-info.md))
       - .col-5 containing photos was changed to .col-6.
-      - image width was changed to 135 px and 130 px for maximum screen size 368 px and 300 px, respectively.
-      - 
+      - Image width was changed to 135 px and 130 px for maximum screen size 368 px and 300 px, respectively.
         
 ## Deployment
 

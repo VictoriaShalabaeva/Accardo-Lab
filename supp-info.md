@@ -182,9 +182,9 @@ Functionality, Usability and Responsiveness of the key website elements were tes
 
     <img src="assets/images/testing_functionality/footer_layout.jpg" alt="Footer layout change." width="500px" height="auto">
     
-**Figure S1.** Initial bug: additional white space causing a horizontal scrolling (indicated by red arrows).
+**Figure S1.** Additional white space causing a horizontal scrolling (indicated by red arrows).
 
-<img src="assets/images/supp_info_images/initial_bug.jpg" alt="Initial bug: additional white space causing a horizontal scrolling (indicated by red arrows)." width="300px" height="auto">
+<img src="assets/images/supp_info_images/initial_bug.jpg" alt="Additional white space causing a horizontal scrolling (indicated by red arrows)." width="300px" height="auto">
 
 **Figure S2.** Result in W3C Markup Validator.
 
@@ -197,4 +197,8 @@ Functionality, Usability and Responsiveness of the key website elements were tes
 **Figure S4.** Result in Lighthouse. 
 
 <img src="assets/images/supp_info_images/lighthouse_test.jpg" alt="Result in Lighthouse." width="500px" height="auto">
+
+**Figure S5.** An overlap between photos and text. 
+
+<img src="assets/images/supp_info_images/people_page_bug.jpg" alt="An overlap between photos and text." width="300px" height="auto">
 
