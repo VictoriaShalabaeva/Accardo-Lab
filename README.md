@@ -84,6 +84,8 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 - The website is responsive on all device sizes.
 
+- The website contains a Bootstrap responsive navigation header, a collapse plugin groups and hides navbar contents.
+
 - The website contains six pages including *Home*, *Research*, *Publications*, *People*, *Come join us* and *Contact* pages. This thematic division facilitates the website navigation.
 
 - The *Home* page contains an appealing hero image that immediately catches the user's attention and give a flavour of the main activities and results of the group. It contains a Bootstrap carousel that summarizes the latest news of the group in a concise manner and allows to keep the page length short.
@@ -161,7 +163,7 @@ Please see the [Supp Info](supp-info.md) to find the user stories testing with c
 
 ### Testing Functionality, Usability and Responsiveness
 
-
+The manual testing is described in [Supp Info](supp-info.md).
 
 ### Further Testing
 
