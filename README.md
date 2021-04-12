@@ -173,7 +173,7 @@ The manual testing is described in [Supp Info](supp-info.md).
 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneXR and Huawei Mate 20.
 
-- A large amount of testing was done to ensure that all pages were linking correctly.
+- A large amount of testing was done to ensure that all pages contain correct links.
 
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -195,11 +195,16 @@ The manual testing is described in [Supp Info](supp-info.md).
 
       - Working with hero images, in particular the hero image on *Research* page and *Publications*. 
   
-  - **Fixed bug**
+  - **Fixed bugs**
 
       - All pages of the website had an additional white space that was causing a horizontal page scrolling (please see Figure S1 in [Supp Info](supp-info.md)).
       - It was discovered that the hero image container had an extra padding and margin space. 
       - The issue was solved by adding an additional classes to standard Bootstrap .row and .col classes in order to style specifically the containers of the hero images.
+
+      - It was noticed that for screen sizes less than 360 px there is an overlap between photos and text on the right (see Figure S5 in [Supp Info](supp-info.md))
+      - .col-5 containing photos was changed to .col-6.
+      - image width was changed to 135 px and 130 px for maximum screen size 368 px and 300 px, respectively.
+      - 
         
 ## Deployment
 

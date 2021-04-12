@@ -48,7 +48,7 @@ body{
 
 @media screen and (max-width: 340px){
     .navbar-brand{
-            font-size: 30px;
+            font-size: 28px;
     }
 }
 
@@ -263,6 +263,17 @@ body{
     #image-outer-publications,
     #publications-image{
         height: 28vh;
+    }
+}
+
+@media screen and (max-width: 310px){
+    #cover-text{
+        left: 0px;
+        width:270px;
+        height:140px;
+        padding-top: 15px;
+        font-size: 100%;
+        letter-spacing: 1px;
     }
 }
 
@@ -508,6 +519,36 @@ body{
     height: 200px;
     width: 150px;
     object-fit: cover;
+}
+
+.angelo-photo{
+    object-position: -50px;
+}
+
+@media screen and (max-width: 368px){
+    .photo{
+         width: 135px;
+    }
+
+    .col-text h5{
+        font-size: 18px;
+    }
+
+    .col-text p{
+        font-size: 12px;
+    }
+
+    .angelo-photo{
+        object-position: -60px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .photo{
+         width: 130px;
+    }
+
+    
 }
 
 .people p{
