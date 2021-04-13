@@ -156,8 +156,8 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
-- [W3C Markup Validator](https://validator.w3.org/). Please see Figure S2 in [Supp Info](supp-info.md) for the result.
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Please see Figure S3 in [Supp Info](supp-info.md) for the result.
+- [W3C Markup Validator](https://validator.w3.org/). Please see Figure S1 in [Supp Info](supp-info.md) for the result.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Please see Figure S2 in [Supp Info](supp-info.md) for the result.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -169,11 +169,24 @@ The manual testing is described in [Supp Info](supp-info.md).
 
 ### Further Testing
 
-- The website was checked for performance with [Lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome devtools (see results in Figure S4 in [Supp Info](supp-info.md)).
+- The website was checked for performance with [Lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome devtools (see results in Figure S3 in [Supp Info](supp-info.md)).
 
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneXR and Huawei Mate 20.
+
+- Devices tested in browser dev tools include:
+
+    - Galaxy Fold
+    - iPhone 5/SE
+    - Pixel 2
+    - Galaxy S5
+    - Moto G4
+    - iPhone 6/7/8
+    - Surface Duo
+    - iPhone 6/7/8 Plus
+    - iPhone X
+    - Pixel 2 XL
 
 - A large amount of testing was done to ensure that all pages contain correct links.
 
@@ -199,7 +212,7 @@ The manual testing is described in [Supp Info](supp-info.md).
   
   - **Fixed bugs**
 
-      - All pages of the website had an additional white space that was causing a horizontal page scrolling (please see Figure S1 in [Supp Info](supp-info.md)).
+      - All pages of the website had an additional white space that was causing a horizontal page scrolling (please see Figure S4 in [Supp Info](supp-info.md)).
       - It was discovered that the hero image container had an extra padding and margin space. 
       - The issue was solved by adding an additional classes to standard Bootstrap .row and .col classes in order to style specifically the containers of the hero images.
 
