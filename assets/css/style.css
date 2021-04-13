@@ -109,7 +109,7 @@ body{
 }
 
 #image-outer-research{
-    height: 570px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -117,14 +117,14 @@ body{
 }
 
 #research-image{
-    height: 570px;
+    height: 600px;
     width: 100%;
     background: url("../images/research4.jpg") no-repeat center center;
     background-size: contain;
 }
 
 #image-outer-publications{
-    height: 520px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -134,7 +134,7 @@ body{
 }
 
 #publications-image{
-    height: 516px;
+    height: 596px;
     width: 100%;
     background: url("../images/publications.jpg") no-repeat center center;
     background-size: contain;
@@ -182,6 +182,13 @@ body{
     background-size: cover;
 }
 
+@media screen and (max-width: 1367px){
+    #image-outer-research,
+    #research-image{
+        height: 560px;
+    }
+}
+
 @media screen and (max-width: 1300px){
     #scaffold-image, 
     #image-outer,
@@ -199,11 +206,30 @@ body{
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1024px){
+    #image-outer-research,
+    #research-image{
+        height: 31vh;
+    }
+    #image-outer-publications,
+    #publications-image,
     #scaffold-image, 
     #image-outer,
-    #image-outer-research,
-    #research-image,
+    #image-outer-publications,
+    #publications-image,
+    #angelo-image,
+    #image-outer-people,
+    #image-outer-come-to-join-us,
+    #come-to-join-us-image,
+    #image-outer-tudelft,
+    #tudelft-image{
+        height: 38vh;
+    }
+}
+
+/* @media screen and (max-width: 992px){
+    #scaffold-image, 
+    #image-outer,
     #image-outer-publications,
     #publications-image,
     #angelo-image,
@@ -214,15 +240,11 @@ body{
     #tudelft-image{
         height: 45vh;
     }
-}
+} */
 
 @media screen and (max-width: 768px){
     #scaffold-image, 
     #image-outer,
-    #image-outer-research,
-    #research-image,
-    #image-outer-publications,
-    #publications-image,
     #angelo-image,
     #image-outer-people,
     #image-outer-come-to-join-us,
@@ -231,14 +253,15 @@ body{
     #tudelft-image{
         height: 40vh;
     }
-    
+    #image-outer-publications,
+    #publications-image{
+        height: 38vh;
+    }
 }
 
 @media screen and (max-width: 576px){
     #scaffold-image, 
     #image-outer,
-    #image-outer-research,
-    #research-image,
     #image-outer-publications,
     #publications-image,
     #image-outer-come-to-join-us,
@@ -246,6 +269,10 @@ body{
     #image-outer-tudelft,
     #tudelft-image{
         height: 35vh;
+    }
+    #image-outer-research,
+    #research-image{
+        height: 37vh;
     }
     #cover-text{
         left: 0px;
@@ -258,11 +285,34 @@ body{
 }
 
 @media screen and (max-width: 460px){
-    #image-outer-research,
-    #research-image,
     #image-outer-publications,
     #publications-image{
         height: 28vh;
+    }
+    #image-outer-research,
+    #research-image{
+        height: 23vh;
+    }
+}
+
+@media screen and (max-width: 415px){
+    #image-outer-research,
+    #research-image{
+        height: 28vh;
+    }
+}
+
+@media screen and (max-width: 376px){
+    #image-outer-publications,
+    #publications-image{
+        height: 28vh;
+    }
+}
+
+@media screen and (max-width: 360px){
+    #image-outer-publications,
+    #publications-image{
+        height: 35vh;
     }
 }
 
@@ -443,29 +493,31 @@ body{
     margin-bottom: 12px;
 }
 
-.height-img{
-    height: 350px;
+.height-img1{
+    height: 260px;
 }
 
-@media screen and (max-width: 992px){
-    .height-img{
+@media screen and (max-width: 1440px){
+    .height-img1{
         height: 300px;
     }
 }
 
+.height-img2{
+    height: 300px;
+}
+
 @media screen and (max-width: 576px){
-    .height-img{
+    .height-img1,
+    .height-img2{
         height: 250px;
     }
 }
 
 @media screen and (max-width: 310px){
-    .height-img{
+    .height-img1{
         height: 230px;
     }
-}
-
-@media screen and (max-width: 310px){
     .height-img2{
         height: 210px;
     }
