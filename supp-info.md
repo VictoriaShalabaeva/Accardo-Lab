@@ -202,3 +202,7 @@ Functionality, Usability and Responsiveness of the key website elements were tes
 
 <img src="assets/images/supp_info_images/people_page_bug.jpg" alt="An overlap between photos and text." width="300px" height="auto">
 
+**Figure S6.** An overlap between the *Back* button of the carousel and the cards text content making links not-clickable.
+
+<img src="assets/images/supp_info_images/bug3.jpg" alt="An overlap between the Back button of the carousel and the cards text content making links not-clickable." width="500px" height="auto">
+
