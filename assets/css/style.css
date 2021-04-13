@@ -411,19 +411,6 @@ body{
   }
 }
 
-@media screen and (min-width: 1400px){
-    .prev,
-    .next{
-      width: 30%;
-  }
-}
-@media screen and (min-width: 1640px){
-    .prev2,
-    .next2{
-      width: 20%;
-  }
-}
-
 .bottom {
     bottom: -10px;
 }

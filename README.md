@@ -209,7 +209,7 @@ The manual testing is described in [Supp Info](supp-info.md).
 
       - When trying to click a link within the text body of the cards in the *News* section on the *Home* page, it was noticed that instead of clicking the link one is clicking the *Back*/*Forward* buttons of the carousel.
       - This happened because the active (clickable) area of buttons was too large overlapping with a cards content (see an example in Figure S6 in [Supp Info](supp-info.md)).
-      - The buttons width was decreased from 30%/20% to a default value 15%. 30% (for screen sizes > 1400 px), 20% (for screen sizes > 1640 px) and 5% (for screen sizes < 645 px) were introduced exclusively for styling purposes). 5% for smaller devices was left as it does not interfere with the cards content.
+      - The buttons width was decreased from 30% to a default value 15%. 30% (for screen sizes > 1400 px) and 5% (for screen sizes < 645 px) were introduced exclusively for styling purposes). 5% for smaller devices was left as it does not interfere with the cards content.
         
 ## Deployment
 
