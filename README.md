@@ -165,21 +165,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
-Please see the [Here](testing_user_stories.md) to find the user stories testing with corresponding screenshots.
+Please see [Here](testing_user_stories.md) to find the user stories testing with corresponding screenshots.
 
 ### Testing Functionality, Usability and Responsiveness
 
-The manual testing is described in [Here](manual_testing.md).
+The manual testing is described [Here](manual_testing.md).
 
 ### Further Testing
 
 - The website was checked for performance with [Lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome devtools (see results in Figure S3 in [Supp Info](supp-info.md)).
 
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The Website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Safari (on iPhoneXR) browsers.
 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneXR and Huawei Mate 20.
 
-- The screen sizes and devices tested in browser dev tools include:
+- The screen sizes and devices tested in Chrome DevTools include:
 
     - 1920 x 1080 
     - 1600 x 992
@@ -201,17 +201,18 @@ The manual testing is described in [Here](manual_testing.md).
 
 - Devices physically tested include:
 
-  - Desctop (1920 x 1080)
+  - Desktop 
+  - Laptop
   - iPhoneXR 
   - Huawei Mate 20 
     
 - A large amount of testing was done to ensure that all pages contain correct links.
 
-- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
-
 ### Bugs
 
-  - Up to my knowledge there is no bug present in the website. 
+  - Two carousels (*News* section on the *Home* page and *Equipment* section on the *Research* page) have "strange" feature in Microsoft Edge browser. When slides are scrolling it is accompanied by slight trembling of the slides.
+  
+  - Up to my knowledge there are no other bugs present in the website. 
 
   - All the malfunctions were tried to be fixed during the development process.
 
@@ -222,28 +223,36 @@ The manual testing is described in [Here](manual_testing.md).
       - Formatting the *News* section on the *Home* page:
           - large amount of content, 
           - cards integration inside a carousel,
-          - optimization their sizing on different devices,
-          - fitting images with different dimensions and aspect rations in unique size container in cards. 
+          - size optimization for different devices,
+          - fitting images with different dimensions and aspect rations within a unique size container in cards. 
 
       - Working with hero images, in particular the hero image on *Research* page and *Publications*. 
   
   - **Fixed bugs**
 
-      - All pages of the website had an additional white space that was causing a horizontal page scrolling (please see Figure S4 in [Supp Info](supp-info.md)).
-      - It was discovered that the hero image container had an extra padding and margin space. 
-      - The issue was solved by adding an additional classes to standard Bootstrap .row and .col classes in order to style specifically the containers of the hero images.
+    1. All pages of the website had an additional white space that was causing a horizontal page scrolling (please see Figure S4 in [Supp Info](supp-info.md)).
+       
+       It was discovered that the hero image container had an extra padding and margin space. 
+       
+       The issue was solved by adding additional classes to standard Bootstrap .row and .col classes in order to style specifically the containers of the hero images.
 
-      - It was noticed that for screen sizes less than 360 px there is an overlap between photos and text on the right (see Figure S5 in [Supp Info](supp-info.md))
-      - .col-5 containing photos was changed to .col-6.
-      - Image width was changed to 135 px and 130 px for maximum screen size 368 px and 300 px, respectively.
+    2. It was noticed that for screen sizes less than 360 px there is an overlap between photos and text on the right (see Figure S5 in [Supp Info](supp-info.md))
+       
+       .col-5 containing photos was changed to .col-6.
+       
+       Image width was changed to 135 px and 130 px for maximum screen sizes 368 px and 300 px, respectively.
 
-      - When trying to click a link within the text body of the cards in the *News* section on the *Home* page, it was noticed that instead of clicking the link one is clicking the *Back*/*Forward* buttons of the carousel.
-      - This happened because the active (clickable) area of buttons was too large overlapping with a cards content (see an example in Figure S6 in [Supp Info](supp-info.md)).
-      - The buttons width was decreased from 30% to a default value 15%. 30% (for screen sizes > 1400 px) and 5% (for screen sizes < 645 px) were introduced exclusively for styling purposes). 5% for smaller devices was left as it does not interfere with the cards content.
+    3. When trying to click a link within a text body of the cards in the *News* section on the *Home* page, it was noticed that instead of clicking the link one is clicking the *Back*/*Forward* buttons of the carousel.
+       
+       This happened because the active (clickable) area of buttons was too large, overlapping with cards content (see an example in Figure S6 in [Supp Info](supp-info.md)).
+       
+       Buttons width was decreased from 30% to a default value 15%. 30% (for screen sizes > 1400 px) and 5% (for screen sizes < 645 px) were introduced exclusively for styling purposes). 5% for smaller devices was left as it does not interfere with the cards content.
 
-      - On the devices with a maximum screen size 768 px, it was noticed that on the *Research* page the carousel items have different height which was creating an impression of jumping when scrolling slides of the carousel.
-      - That was happenning due to the different amount of text.
-      - The text container height was fixed to 100 px and 130 px for the maximum screen sizes 550 px and 280 px, respectively.
+    4. On the devices with a maximum screen size 768 px, it was noticed that on the *Research* page the carousel items have different height which was creating an impression of jumping when scrolling slides of the carousel.
+       
+       That was happenning due to the different amount of text.
+       
+       The text container height was fixed to 100 px and 130 px for the maximum screen sizes 550 px and 280 px, respectively.
         
 ## Deployment
 
