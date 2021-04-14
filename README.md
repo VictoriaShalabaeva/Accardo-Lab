@@ -165,11 +165,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
-Please see the [Supp Info](supp-info.md) to find the user stories testing with corresponding screenshots.
+Please see the [Here](testing_user_stories.md) to find the user stories testing with corresponding screenshots.
 
 ### Testing Functionality, Usability and Responsiveness
 
-The manual testing is described in [Supp Info](supp-info.md).
+The manual testing is described in [Here](manual_testing.md).
 
 ### Further Testing
 
