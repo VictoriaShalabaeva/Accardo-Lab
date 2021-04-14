@@ -1,6 +1,6 @@
 # Accardo Lab Website
 
-[View the live project here.](https://victoriashalabaeva.github.io/Accardo-Lab/)
+[View the live project here.](https://victoriashalabaeva.github.io/Accardo-Lab/){:target="_blank" rel="noopener"}
 
 *Accardo Lab* is a website of the research group supervised by Angelo Accardo, assistant professor at the Delft University of Technology (TU Delft). 
 
