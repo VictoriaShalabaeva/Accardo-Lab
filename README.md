@@ -2,7 +2,7 @@
 
 [View the live project here.](https://victoriashalabaeva.github.io/Accardo-Lab/)
 
-Accardo Lab is a website of the research group supervised by Angelo Accardo, assistant professor at the Delft University of Technology (TU Delft). 
+*Accardo Lab* is a website of the research group supervised by Angelo Accardo, assistant professor at the Delft University of Technology (TU Delft). 
 
 The website is particularly dedicated to the scientific community specialized in the field of Life Sciences, TU Delft students, group partners and collaborators. 
 
@@ -84,7 +84,7 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 - The website is responsive on all device sizes.
 
-- The website contains a Bootstrap responsive navigation header, a collapse plugin groups and hides navbar contents.
+- The website contains a Bootstrap responsive navigation header, a collapse plugin groups and hides navbar content.
 
 - The website contains six pages including *Home*, *Research*, *Publications*, *People*, *Come join us* and *Contact* pages. This thematic division facilitates the website navigation.
 
@@ -144,11 +144,15 @@ The website is designed to be responsive and accessible on a range of devices, m
 
    Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-6. [GitHub:](https://github.com/)
+6. [GitPod:](https://www.gitpod.io/)
+
+   GitPod was used as an IDE platform for website realization.
+
+7. [GitHub:](https://github.com/)
 
    GitHub is used to store the projects code after being pushed from GitPod.
 
-7. [Balsamiq:](https://balsamiq.com/)
+8. [Balsamiq:](https://balsamiq.com/)
 
    Balsamiq was used to create the wireframes during the design process.
 
