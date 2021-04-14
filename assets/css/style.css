@@ -612,11 +612,24 @@ body{
 .equipment-text{
     text-align: center; 
     padding-top: 100px;
+    height: ;
 }
 
 @media screen and (max-width: 992px){
     .equipment-text{
         padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .equipment-text{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .equipment-text{
+        height: 130px;
     }
 }
 

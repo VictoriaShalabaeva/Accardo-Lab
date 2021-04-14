@@ -223,6 +223,10 @@ The manual testing is described in [Supp Info](supp-info.md).
       - When trying to click a link within the text body of the cards in the *News* section on the *Home* page, it was noticed that instead of clicking the link one is clicking the *Back*/*Forward* buttons of the carousel.
       - This happened because the active (clickable) area of buttons was too large overlapping with a cards content (see an example in Figure S6 in [Supp Info](supp-info.md)).
       - The buttons width was decreased from 30% to a default value 15%. 30% (for screen sizes > 1400 px) and 5% (for screen sizes < 645 px) were introduced exclusively for styling purposes). 5% for smaller devices was left as it does not interfere with the cards content.
+
+      - On the devices with a maximum screen size 768 px, it was noticed that on the *Research* page the carousel items have different height which was creating an impression of jumping when scrolling slides of the carousel.
+      - That was happenning due to the different amount of text.
+      - The text container height was fixed to 100 px and 130 px for the maximum screen sizes 550 px and 280 px, respectively.
         
 ## Deployment
 
