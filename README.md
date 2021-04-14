@@ -175,19 +175,32 @@ The manual testing is described in [Supp Info](supp-info.md).
 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneXR and Huawei Mate 20.
 
-- Devices tested in browser dev tools include:
+- The screen sizes and devices tested in browser dev tools include:
 
-    - Galaxy Fold
-    - iPhone 5/SE
-    - Pixel 2
-    - Galaxy S5
-    - Moto G4
-    - iPhone 6/7/8
-    - Surface Duo
-    - iPhone 6/7/8 Plus
-    - iPhone X
-    - Pixel 2 XL
+    - 1920 x 1080 
+    - 1600 x 992
+    - 1440 x 900
+    - 1366 x 768
+    - 1280 x 800
+    - iPad Pro (1024 x 1366) 
+    - Nexus 10 (800 x 1280)
+    - iPad (768 x 1024)
+    - Surface Duo (540 x 720)
+    - iPhone 6/7/8 Plus (414 x 736)
+    - Pixel 2 (411 x 731)
+    - iPhone 6/7/8 (375 x 667)
+    - Nexus 4 (384 x 640)
+    - iPhone X (375 x 812)
+    - Galaxy S5 (360 x 640)
+    - iPhone 5/SE (320 x 568)
+    - Galaxy Fold (280 x 653)
 
+- Devices physically tested include:
+
+  - Desctop (1920 x 1080)
+  - iPhoneXR 
+  - Huawei Mate 20 
+    
 - A large amount of testing was done to ensure that all pages contain correct links.
 
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
