@@ -12,7 +12,7 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 ## User Experience (UX)
 
-- ### User stories
+### User stories
 
   - **As a research scientist from an external institution:**
 
@@ -50,11 +50,11 @@ The website is designed to be responsive and accessible on a range of devices, m
     - I want to find a group members list to check name or email address spelling.
     - I want to be able to easily navigate throughout the site to find content.
       
-- ### Design
+### Design
 
   - **Colour Scheme**
 
-     The three main colours used are dark grey (#494949), light grey (#f8f9fa) and white.
+    The three main colours used are dark grey (#494949), light grey (#f8f9fa) and white.
 
   - **Typography**
 
@@ -62,9 +62,9 @@ The website is designed to be responsive and accessible on a range of devices, m
 
   - **Imagery**
      
-     The large background hero images are designed to be striking and catch the user's attention. They are also informative and demonstrate the scientific results of the group.
+    The large background hero images are designed to be striking and catch the user's attention. They are also informative and demonstrate the scientific results of the group.
 
-- ### Wireframes
+### Wireframes
 
   - *Home* page - [View](assets/pdf/home_page.pdf)
 
@@ -228,31 +228,31 @@ The manual testing is described [Here](manual_testing.md).
 
       - Working with hero images, in particular the hero image on *Research* page and *Publications*. 
   
-  - **Fixed bugs**
+#### Fixed bugs
 
-    1. All pages of the website had an additional white space that was causing a horizontal page scrolling (please see Figure S4 in [Supp Info](supp-info.md)).
+1. All pages of the website had an additional white space that was causing a horizontal page scrolling (please see Figure S4 in [Supp Info](supp-info.md)).
        
-       It was discovered that the hero image container had an extra padding and margin space. 
+   It was discovered that the hero image container had an extra padding and margin space. 
        
-       The issue was solved by adding additional classes to standard Bootstrap .row and .col classes in order to style specifically the containers of the hero images.
+   The issue was solved by adding additional classes to standard Bootstrap .row and .col classes in order to style specifically the containers of the hero images.
 
-    2. It was noticed that for screen sizes less than 360 px there is an overlap between photos and text on the right (see Figure S5 in [Supp Info](supp-info.md))
+2. It was noticed that for screen sizes less than 360 px there is an overlap between photos and text on the right (see Figure S5 in [Supp Info](supp-info.md))
        
-       .col-5 containing photos was changed to .col-6.
+   .col-5 containing photos was changed to .col-6.
        
-       Image width was changed to 135 px and 130 px for maximum screen sizes 368 px and 300 px, respectively.
+   Image width was changed to 135 px and 130 px for maximum screen sizes 368 px and 300 px, respectively.
 
-    3. When trying to click a link within a text body of the cards in the *News* section on the *Home* page, it was noticed that instead of clicking the link one is clicking the *Back*/*Forward* buttons of the carousel.
+3. When trying to click a link within a text body of the cards in the *News* section on the *Home* page, it was noticed that instead of clicking the link one is clicking the *Back*/*Forward* buttons of the carousel.
        
-       This happened because the active (clickable) area of buttons was too large, overlapping with cards content (see an example in Figure S6 in [Supp Info](supp-info.md)).
+   This happened because the active (clickable) area of buttons was too large, overlapping with cards content (see an example in Figure S6 in [Supp Info](supp-info.md)).
        
-       Buttons width was decreased from 30% to a default value 15%. 30% (for screen sizes > 1400 px) and 5% (for screen sizes < 645 px) were introduced exclusively for styling purposes). 5% for smaller devices was left as it does not interfere with the cards content.
+   Buttons width was decreased from 30% to a default value 15%. 30% (for screen sizes > 1400 px) and 5% (for screen sizes < 645 px) were introduced exclusively for styling purposes). 5% for smaller devices was left as it does not interfere with the cards content.
 
-    4. On the devices with a maximum screen size 768 px, it was noticed that on the *Research* page the carousel items have different height which was creating an impression of jumping when scrolling slides of the carousel.
+4. On the devices with a maximum screen size 768 px, it was noticed that on the *Research* page the carousel items have different height which was creating an impression of jumping when scrolling slides of the carousel.
        
-       That was happenning due to the different amount of text.
+   That was happenning due to the different amount of text.
        
-       The text container height was fixed to 100 px and 130 px for the maximum screen sizes 550 px and 280 px, respectively.
+   The text container height was fixed to 100 px and 130 px for the maximum screen sizes 550 px and 280 px, respectively.
         
 ## Deployment
 
