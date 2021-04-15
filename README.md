@@ -4,7 +4,7 @@
 
 *Accardo Lab* is a website of the research group supervised by Angelo Accardo, assistant professor at the Delft University of Technology (TU Delft). 
 
-The website is particularly dedicated to the scientific community specialized in the field of Life Sciences, TU Delft students, group partners and collaborators. 
+The website is dedicated to the scientific community specialized in the field of Life Sciences, TU Delft students, group partners and collaborators. 
 
 The website is designed to be responsive and accessible on a range of devices, making it easy to navigate through.
 
@@ -41,6 +41,7 @@ The website is designed to be responsive and accessible on a range of devices, m
     - I want to easily understand the main areas of research of the group and learn more about it.
     - I want to be able to easily navigate throughout the site to find content.
     - I want to find contact information for discussing possible collaborations.
+    - I want to be updated on the recent events of the group.
     - I want to locate social media links to see their followings on social media.
 
   - **As a group member or colleague from the same faculty:**
@@ -82,27 +83,44 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 ### Existing Features
 
-- The website is responsive on all device sizes.
+- The website is responsive on all device sizes (down to 280 px).
 
-- The website contains a Bootstrap responsive navigation header, a collapse plugin groups and hides navbar content.
+- The website contains a Bootstrap responsive navigation header; a collapse plugin groups and hides navbar content.
 
 - The website contains six pages including *Home*, *Research*, *Publications*, *People*, *Come join us* and *Contact* pages. This thematic division facilitates the website navigation.
 
-- The *Home* page contains an appealing hero image that immediately catches the user's attention and give a flavour of the main activities and results of the group. It contains a Bootstrap carousel that summarizes the latest news of the group in a concise manner and allows to keep the page length short.
+- The *Home* page:
 
-- The *Research* page describes the main lines of research developed in the group. It contains a video file giving an example of one research project. It also contains a Bootstrap carousel that shows instruments available in the group laboratory.
+  - contains an appealing hero image (with animation) that immediately catches the user's attention and gives a flavour of the main activities and results of the group. 
+  - contains a Bootstrap carousel that summarizes the latest news of the group in a concise manner and allows to keep the page length short.
 
-- The *Publications* page contains a full list of publications. Each article has a DOI link which significantly saves user's time (no need to google each article).
+- The *Research* page:
 
-- The *People* page contains photos and contact information of all group members.
+  - describes the main lines of research developed in the group. 
+  - contains a video where one of the PhD students tells about his research project. 
+  - contains a Bootstrap carousel that shows instruments available in the group laboratory.
 
-- The *Come join us* page contains information on currently available Master thesis projects and PhD/Postdoc openings.
+- The *Publications* page:
 
-- The *Contact* page contains contact and address information. The page has also a Google map that facilitates a trip planning for visitors.
+  - contains a full list of publications. 
+  - each article has a DOI link which significantly saves user's time (no need to google each article).
+
+- The *People* page:
+
+  - contains photos and contact information of all group members.
+
+- The *Come join us* page:
+
+  - contains information on currently available Master thesis projects and PhD/Postdoc openings.
+
+- The *Contact* page:
+
+  - contains contact and address information. 
+  - contains a Google map that facilitates trip planning for visitors.
 
 ### Features Left to Implement
 
-- a *Scroll Back To Top Button*. This feature would be particularly useful on the *Publications* page as it is rather long.
+- a *Scroll Back To Top Button*. This feature would be particularly useful on the *Publications* page as a publication list makes the page long.
 
 - a *Search Bar* through which a user can search content of their concern within the website.
 
@@ -142,7 +160,7 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 5. [Git:](https://git-scm.com/)
 
-   Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+   Git was used for version control. 
 
 6. [GitPod:](https://www.gitpod.io/)
 
@@ -150,11 +168,11 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 7. [GitHub:](https://github.com/)
 
-   GitHub is used to store the projects code after being pushed from GitPod.
+   GitHub is used to store the project code after being pushed from GitPod.
 
 8. [Balsamiq:](https://balsamiq.com/)
 
-   Balsamiq was used to create the wireframes during the design process.
+   Balsamiq was used to create wireframes during the design process.
 
 ## Testing
 
@@ -173,11 +191,9 @@ The manual testing is described [Here](manual_testing.md).
 
 ### Further Testing
 
-- The website was checked for performance with [Lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome devtools (see results in Figure S3 in [Supp Info](supp-info.md)).
+- The website was checked for performance with [Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome DevTools (see results in Figure S3 in [Supp Info](supp-info.md)).
 
-- The Website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Safari (on iPhoneXR) browsers.
-
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhoneXR and Huawei Mate 20.
+- The Website was tested on Google Chrome, Mozilla Firefox and Microsoft Edge browsers.
 
 - The screen sizes and devices tested in Chrome DevTools include:
 
@@ -206,8 +222,6 @@ The manual testing is described [Here](manual_testing.md).
   - iPhoneXR 
   - Huawei Mate 20 
     
-- A large amount of testing was done to ensure that all pages contain correct links.
-
 ### Bugs
 
   - Two carousels (*News* section on the *Home* page and *Equipment* section on the *Research* page) have "strange" feature in Microsoft Edge browser. When slides are scrolling it is accompanied by slight trembling of the slides.
@@ -226,7 +240,7 @@ The manual testing is described [Here](manual_testing.md).
           - size optimization for different devices,
           - fitting images with different dimensions and aspect rations within a unique size container in cards. 
 
-      - Working with hero images, in particular the hero image on *Research* page and *Publications*. 
+      - Working with hero images, in particular the hero images on *Research* page and *Publications*. 
   
 #### Fixed bugs
 
@@ -248,9 +262,9 @@ The manual testing is described [Here](manual_testing.md).
        
    Buttons width was decreased from 30% to a default value 15%. 30% (for screen sizes > 1400 px) and 5% (for screen sizes < 645 px) were introduced exclusively for styling purposes). 5% for smaller devices was left as it does not interfere with the cards content.
 
-4. On the devices with a maximum screen size 768 px, it was noticed that on the *Research* page the carousel items have different height which was creating an impression of jumping when scrolling slides of the carousel.
+4. On the devices with a maximum screen size 768 px, it was noticed that on the *Research* page the carousel bottom jumps when scrolling slides of the carousel.
        
-   That was happenning due to the different amount of text.
+   That was happening due to the different amount of text.
        
    The text container height was fixed to 100 px and 130 px for the maximum screen sizes 550 px and 280 px, respectively.
         
