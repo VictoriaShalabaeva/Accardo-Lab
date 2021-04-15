@@ -26,4 +26,3 @@
 
 <img src="assets/images/supp_info_images/bug3.jpg" alt="An overlap between the Back button of the carousel and the cards text content making links not-clickable." width="500px" height="auto">
 
-

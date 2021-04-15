@@ -2,7 +2,7 @@
 
 Functionality, Usability and Responsiveness of the key website elements were tested manually following the plan:
 
-- ### Navigation bar:
+### Navigation bar:
 
   - The navbar automatically collapses at the lg (large) breakpoint (992px).
 
@@ -16,7 +16,7 @@ Functionality, Usability and Responsiveness of the key website elements were tes
 
   - All buttons of the navbar are clickable and open correct pages.
 
-- ### *Home* page hero image:
+### *Home* page hero image:
 
   - Each time the *Home* page is loaded the hero image has an animation (zooming effect).
 
@@ -24,17 +24,17 @@ Functionality, Usability and Responsiveness of the key website elements were tes
 
     <img src="assets/images/testing_functionality/hero-image.jpg" alt="At a certain breakpoint (small device, 576 px), the cover text container jumps from the left side to the right side." width="500px" height="auto">
 
-- ### *News* section on the *Home* page:
+### *News* section on the *Home* page:
 
   - To ensure correct card/carousel sizing (paying attention that the text fits in the container).
 
   - Images (while resizing themselves) are visualised in a correct manner (where it is necessary, image cropping is avoided for readability; in order to keep the same image container size, an individual background was added). 
 
-  - Carousel back and forward buttons are functional. The automatic slide scrolling was deliberately deactivated in order to leave enough time to read for users. 
+  - Carousel back and forward buttons are functional. The automatic slide scrolling was deliberately deactivated in order to have enough time to read. 
 
     <img src="assets/images/testing_functionality/card_image.jpg" alt="Visualization of card images." width="500px" height="auto">
 
-- ### Video on the *Research* page:
+### Video on the *Research* page:
  
   - Video should have control buttons.
 
@@ -46,40 +46,46 @@ Functionality, Usability and Responsiveness of the key website elements were tes
 
     <img src="assets/images/testing_functionality/video.jpg" alt="Video file." width="500px" height="auto">
 
-- ### *Equipment* section on the *Research* page:
+### *Equipment* section on the *Research* page:
 
-  - Carousel back and forward buttons are functional,
+  - Carousel back and forward buttons are functional.
   
-  - The automatic slide scrolling is active,
+  - The automatic slide scrolling is active.
 
-  - The indicators underneath the slides are active (see image below, highlighted by a blue arrow),
+  - The indicators underneath the slides are active (see image below, highlighted by a blue arrow).
 
   - At a certain breakpoint, carousel rearranges its layout correctly.
 
     <img src="assets/images/testing_functionality/equipment.jpg" alt="Equipment section, carousel functionality." width="500px" height="auto">
 
-- ### *People* page:
+### *People* page:
 
   - Photos and text are not overlapped.
 
-- ### Google map:
+### Google map:
 
-  - Google map is displayable and functional (by clicking it opens a separate page with google maps)
+  - Google map is displayable and functional (by clicking *View larger map* it opens a separate page with google maps).
 
   - Google map is responsive and resizes itself correctly.
 
-- ### Hero images:
+### Hero images:
 
-  - each hero image was checked to resize in a ecstatically acceptable manner.
+  - Each hero image was checked to resize in a "ecstatically acceptable" manner.
 
-- ### General layout of pages:
+### General layout of pages:
 
-  - At a certain breakpoint (medium device, 768 px), the left and right "paddings" disappear. It was checked that a navbar, hero image, text and other elements present on a page fill out all the available space.
+  - At a certain breakpoint (medium device, 768 px), the left and right spaces disappear. It was checked that a navbar, hero image, text and other elements present on a page fill out all the available space.
 
     <img src="assets/images/testing_functionality/general_layout.jpg" alt="At a certain breakpoint (medium device, 768 px), the left and right paddings disappear." width="500px" height="auto">
 
-  - Bootstrap .col-x elements position themselves in a correct manner when passing from one screensize to another.
+  - Bootstrap .col-x-y elements position themselves in a correct manner when passing from one screen size to another.
 
   - Footer changes its layout when passing a certain breakpoint (medium device, 768 px).
 
     <img src="assets/images/testing_functionality/footer_layout.jpg" alt="Footer layout change." width="500px" height="auto">
+
+### Links:
+
+  - All links to external pages open in a separate tab when clicked.
+
+  - There are no broken internal links.
