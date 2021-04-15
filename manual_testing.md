@@ -70,7 +70,7 @@ Functionality, Usability and Responsiveness of the key website elements were tes
 
 ### Hero images:
 
-  - Each hero image was checked to resize in a "ecstatically acceptable" manner.
+  - Each hero image was checked to resize in a "aesthetic acceptable" manner.
 
 ### General layout of pages:
 

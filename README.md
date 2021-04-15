@@ -25,14 +25,14 @@ The website is designed to be responsive and accessible on a range of devices, m
     
     - I want to easily understand the main areas of research of the group and learn more about it.
     - I want to be able to easily navigate throughout the site to find content.
-    - I want to look for the currently available Master students assignments.
+    - I want to look for currently available Master students assignments.
     - I want to find the contact information to discuss the possibility to conduct a thesis research in the group.
 
   - **As a candidate looking for potential job opportunities:**
     
     - I want to easily understand the main areas of research of the group and learn more about it.
     - I want to be able to easily navigate throughout the site to find content.
-    - I want to look for the currently available open positions.
+    - I want to look for currently available open positions.
     - I want to know the group members.
     - I want to find the contact information.
 
@@ -96,7 +96,7 @@ The website is designed to be responsive and accessible on a range of devices, m
 
 - The *People* page contains photos and contact information of all group members.
 
-- The *Come join us* page contains information on currently available Master  thesis projects and PhD/Postdoc openings.
+- The *Come join us* page contains information on currently available Master thesis projects and PhD/Postdoc openings.
 
 - The *Contact* page contains contact and address information. The page has also a Google map that facilitates a trip planning for visitors.
 
