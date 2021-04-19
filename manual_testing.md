@@ -40,8 +40,6 @@ Functionality, Usability and Responsiveness of the key website elements were tes
 
   - Video plays by pushing *play* button.
 
-  - Video is muted.
-
   - Video does not have an autoplay feature.
 
     <img src="assets/images/testing_functionality/video.jpg" alt="Video file." width="500px" height="auto">
