@@ -174,6 +174,10 @@ The website is designed to be responsive and accessible on a range of devices, m
 
    Balsamiq was used to create wireframes during the design process.
 
+9. [Google Map Generator:](https://google-map-generator.com/)
+
+   Google Map Generator was used for the Google map integration. 
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
@@ -224,14 +228,8 @@ The manual testing is described [Here](manual_testing.md).
     
 ### Bugs
 
-  - Two carousels (*News* section on the *Home* page and *Equipment* section on the *Research* page) have "strange" feature in Microsoft Edge browser. When slides are scrolling it is accompanied by slight trembling of the slides.
+  - Two carousels (*News* section on the *Home* page and *Equipment* section on the *Research* page) have a "strange" feature in Microsoft Edge browser. When the slides are scrolling it is accompanied by a slight trembling of the slides.
   
-  - Up to my knowledge there are no other bugs present in the website. 
-
-  - All the malfunctions were tried to be fixed during the development process.
-
-  - Thank you for contacting the developer <shalabaevavt@gmail.com> if any bug is identified.
-
   - During the development process, the particular difficulty was met with:
   
       - Formatting the *News* section on the *Home* page:
@@ -240,7 +238,7 @@ The manual testing is described [Here](manual_testing.md).
           - size optimization for different devices,
           - fitting images with different dimensions and aspect rations within a unique size container in cards. 
 
-      - Working with hero images, in particular the hero images on *Research* page and *Publications*. 
+      - Working with the hero images, in particular the hero images on *Research* page and *Publications*. 
   
 #### Fixed bugs
 
@@ -345,8 +343,6 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
 ### Acknowledgements
 
 - The styling of the hero image was inspired by the Code Institute tutorial lesson on "Love running project".
-
-- The Google map was integrated through [Google Map Generator](https://google-map-generator.com/).
 
 - My mentor for continuous helpful feedback.
 
