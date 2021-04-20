@@ -228,7 +228,7 @@ The manual testing is described [Here](manual_testing.md).
     
 ### Bugs
 
-  - Two carousels (*News* section on the *Home* page and *Equipment* section on the *Research* page) have a "strange" feature in Microsoft Edge browser. When the slides are scrolling it is accompanied by a slight trembling of the slides.
+  - Two carousels (*News* section on the *Home* page and *Equipment* section on the *Research* page) have a "strange" feature in Microsoft Edge and Mozilla Firefox browsers. When the slides are scrolling it is accompanied by a slight trembling of the slides (hardly noticeable in Mozilla Firefox, more evident in Microsoft Edge).
   
   - During the development process, the particular difficulty was met with:
   
